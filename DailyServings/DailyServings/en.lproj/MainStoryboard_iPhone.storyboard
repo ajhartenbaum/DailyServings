@@ -88,21 +88,16 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Na-k2-0Wi">
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem systemItem="favorites" id="1MO-lI-PG1"/>
-                                    <tabBarItem title="Item" id="0Gv-ER-8LP"/>
-                                    <tabBarItem title="Item" id="Smd-dM-VfC"/>
-                                    <tabBarItem systemItem="more" id="yBn-Rg-i9N"/>
-                                </items>
-                            </tabBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Settings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bN-Tk-nuC">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="4Na-k2-0Wi" firstAttribute="bottom" secondItem="7YM-eP-Abd" secondAttribute="bottom" type="default" id="LBK-fc-4Ey"/>
-                            <constraint firstItem="4Na-k2-0Wi" firstAttribute="trailing" secondItem="7YM-eP-Abd" secondAttribute="trailing" type="default" id="OTT-dg-q52"/>
-                            <constraint firstItem="4Na-k2-0Wi" firstAttribute="leading" secondItem="7YM-eP-Abd" secondAttribute="leading" type="default" id="xc2-IZ-ltv"/>
+                            <constraint firstItem="6bN-Tk-nuC" firstAttribute="top" secondItem="7YM-eP-Abd" secondAttribute="top" constant="32" id="IHO-Dq-tal"/>
+                            <constraint firstItem="6bN-Tk-nuC" firstAttribute="leading" secondItem="7YM-eP-Abd" secondAttribute="leading" constant="96" id="XQp-Pk-TeV"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="tXU-nD-pSm"/>

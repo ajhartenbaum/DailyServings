@@ -138,8 +138,6 @@
 				A8009AC8172201CE00F5DDFC /* MainStoryboard_iPhone.storyboard */,
 				A8009ACB172201CE00F5DDFC /* MainStoryboard_iPad.storyboard */,
 				A8009ACE172201CE00F5DDFC /* FirstViewController.h */,
-				A8009AFC172206EF00F5DDFC /* ThirdViewController.h */,
-				A8009AFD172206EF00F5DDFC /* ThirdViewController.m */,
 				A8009ACF172201CE00F5DDFC /* FirstViewController.m */,
 				A8009AD1172201CE00F5DDFC /* first.png */,
 				A8009AD3172201CE00F5DDFC /* first@2x.png */,
@@ -147,6 +145,8 @@
 				A8009AD6172201CE00F5DDFC /* SecondViewController.m */,
 				A8009AD8172201CE00F5DDFC /* second.png */,
 				A8009ADA172201CE00F5DDFC /* second@2x.png */,
+				A8009AFC172206EF00F5DDFC /* ThirdViewController.h */,
+				A8009AFD172206EF00F5DDFC /* ThirdViewController.m */,
 				A8009AB7172201CE00F5DDFC /* Supporting Files */,
 			);
 			path = DailyServings;

@@ -29,6 +29,7 @@
 		A8009AE5172201CE00F5DDFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8009AB2172201CE00F5DDFC /* Foundation.framework */; };
 		A8009AED172201CE00F5DDFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8009AEB172201CE00F5DDFC /* InfoPlist.strings */; };
 		A8009AF0172201CE00F5DDFC /* DailyServingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8009AEF172201CE00F5DDFC /* DailyServingsTests.m */; };
+		A8009AFE172206EF00F5DDFC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8009AFD172206EF00F5DDFC /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		A8009AEC172201CE00F5DDFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A8009AEE172201CE00F5DDFC /* DailyServingsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyServingsTests.h; sourceTree = "<group>"; };
 		A8009AEF172201CE00F5DDFC /* DailyServingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyServingsTests.m; sourceTree = "<group>"; };
+		A8009AFC172206EF00F5DDFC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		A8009AFD172206EF00F5DDFC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				A8009AC8172201CE00F5DDFC /* MainStoryboard_iPhone.storyboard */,
 				A8009ACB172201CE00F5DDFC /* MainStoryboard_iPad.storyboard */,
 				A8009ACE172201CE00F5DDFC /* FirstViewController.h */,
+				A8009AFC172206EF00F5DDFC /* ThirdViewController.h */,
+				A8009AFD172206EF00F5DDFC /* ThirdViewController.m */,
 				A8009ACF172201CE00F5DDFC /* FirstViewController.m */,
 				A8009AD1172201CE00F5DDFC /* first.png */,
 				A8009AD3172201CE00F5DDFC /* first@2x.png */,
@@ -299,6 +304,7 @@
 				A8009AC1172201CE00F5DDFC /* AppDelegate.m in Sources */,
 				A8009AD0172201CE00F5DDFC /* FirstViewController.m in Sources */,
 				A8009AD7172201CE00F5DDFC /* SecondViewController.m in Sources */,
+				A8009AFE172206EF00F5DDFC /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

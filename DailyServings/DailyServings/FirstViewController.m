@@ -11,6 +11,14 @@
 
 @implementation FirstViewController
 
+-(IBAction)infoFruit:(id)sender {
+    
+    UIAlertView* mes=[[UIAlertView alloc] initWithTitle:@"Fruit Serving Size"
+                                                message:@"1 cup = 1 apple or 1 banana" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
+    
+    [mes show];
+}
+
 -(IBAction)plusFruit:(id)sender {
     
     fruitSlider.value++;
@@ -24,6 +32,14 @@
 -(IBAction)slideFruitSlider:(id)sender {
     
     fruitLabel.text = [NSString stringWithFormat:@"%1.1f out of 2.0 cups",fruitSlider.value];
+}
+
+-(IBAction)infoBread:(id)sender {
+    
+    UIAlertView* mes=[[UIAlertView alloc] initWithTitle:@"Bread Serving Size"
+                                                message:@"1 ounce = 1 slize of bread or\n1/2 cup of cooked rice or pasta" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
+    
+    [mes show];
 }
 
 -(IBAction)plusBread:(id)sender {
@@ -41,6 +57,14 @@
     breadLabel.text = [NSString stringWithFormat:@"%1.1f out of 6.0 oz",breadSlider.value];
 }
 
+-(IBAction)infoVeggie:(id)sender {
+    
+    UIAlertView* mes=[[UIAlertView alloc] initWithTitle:@"Veggie Serving Size"
+                                                message:@"1 cup = size of a baseball\n" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
+    
+    [mes show];
+}
+
 -(IBAction)plusVeggie:(id)sender {
     
     veggieSlider.value += .5;
@@ -56,6 +80,14 @@
     veggieLabel.text = [NSString stringWithFormat:@"%1.1f out of 2.5 cups",veggieSlider.value];
 }
 
+-(IBAction)infoProtein:(id)sender {
+    
+    UIAlertView* mes=[[UIAlertView alloc] initWithTitle:@"Protein Serving Size"
+                                                message:@"3 ounces = size of 1 deck of cards" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
+    
+    [mes show];
+}
+
 -(IBAction)plusProtein:(id)sender {
     
     proteinSlider.value += 3;
@@ -69,6 +101,14 @@
 -(IBAction)slideProteinSlider:(id)sender {
     
     proteinLabel.text = [NSString stringWithFormat:@"%1.1f out of 6.0 oz",proteinSlider.value];
+}
+
+-(IBAction)infoDairy:(id)sender {
+    
+    UIAlertView* mes=[[UIAlertView alloc] initWithTitle:@"Dairy Serving Size"
+                                                message:@"1 cup = 2 slices of cheese" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
+    
+    [mes show];
 }
 
 -(IBAction)plusDairy:(id)sender {

@@ -14,7 +14,7 @@
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="wm2-Fy-a71" userLabel="Horizontal Slider - FruitSlider">
                                 <connections>
-                                    <action selector="slideFruitSlider:" destination="2" eventType="valueChanged" id="Nje-Hk-nhu"/>
+                                    <action selector="slideFruitSlider:" destination="2" eventType="valueChanged" id="IOK-4n-hgE"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="6" translatesAutoresizingMaskIntoConstraints="NO" id="fcV-rr-t4s" userLabel="Horizontal Slider - BreadSlider">
@@ -75,6 +75,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="infoFruit:" destination="2" eventType="touchUpInside" id="g0W-Vf-MSr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCZ-IZ-Q7Z" userLabel="Button - BreadButton">
                                 <constraints>
@@ -88,6 +91,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="infoBread:" destination="2" eventType="touchUpInside" id="2Rc-0X-6Sm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8KY-6M-fMr" userLabel="Button - VeggieButton">
                                 <constraints>
@@ -101,6 +107,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="infoVeggie:" destination="2" eventType="touchUpInside" id="nyd-4v-E1i"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7h-Qr-qpD" userLabel="Button - ProteinButton">
                                 <constraints>
@@ -114,6 +123,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="infoProtein:" destination="2" eventType="touchUpInside" id="tUz-Yl-BAk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYm-I9-9ds" userLabel="Button - DairyButton">
                                 <constraints>
@@ -128,11 +140,99 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="infoDairy:" destination="2" eventType="touchUpInside" id="F1Z-2v-E6U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEl-yG-73a" userLabel="Button - FruitMinus">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="23" id="XUF-Af-bNW"/>
+                                    <constraint firstAttribute="height" constant="21" id="Y3e-iI-MGV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="minusButton.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="minusFruit:" destination="2" eventType="touchUpInside" id="0Kj-q6-j3y"/>
+                                    <action selector="slideFruitSlider:" destination="2" eventType="touchUpInside" id="0VC-kf-FLQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0s-az-tX3" userLabel="Button - BreadMinus">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="rjx-rj-1iC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="minusButton.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="minusBread:" destination="2" eventType="touchUpInside" id="coI-Tu-F30"/>
+                                    <action selector="slideBreadSlider:" destination="2" eventType="touchUpInside" id="AXl-5D-Ug0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3w-Zv-ec3" userLabel="Button - VeggieMinus">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="OOX-ig-hLs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="minusButton.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="minusVeggie:" destination="2" eventType="touchUpInside" id="jh6-vG-EOo"/>
+                                    <action selector="slideVeggieSlider:" destination="2" eventType="touchUpInside" id="I3Z-4V-n0e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pyO-uA-xoc" userLabel="Button - ProteinMinus">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="MCB-ev-YQb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="minusButton.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="minusProtein:" destination="2" eventType="touchUpInside" id="k6E-3z-QUH"/>
+                                    <action selector="slideProteinSlider:" destination="2" eventType="touchUpInside" id="g5N-L2-Vj4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ti2-yp-u6K" userLabel="Button - DairyMinus">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="bxQ-Kx-GEF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="minusButton.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="minusDairy:" destination="2" eventType="touchUpInside" id="SRF-4h-mys"/>
+                                    <action selector="slideDairySlider:" destination="2" eventType="touchUpInside" id="42R-uz-yXR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vH-9v-f1s" userLabel="Button - FruitPlus">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="dsp-eL-lNO"/>
-                                    <constraint firstAttribute="width" constant="23" id="lbn-1z-CK8"/>
+                                    <constraint firstAttribute="width" constant="23" id="tdl-FA-IlH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" image="plusButton.png">
@@ -144,13 +244,10 @@
                                 </state>
                                 <connections>
                                     <action selector="plusFruit:" destination="2" eventType="touchUpInside" id="u6M-Q7-CqZ"/>
-                                    <action selector="slideFruitSlider:" destination="2" eventType="touchUpInside" id="BDu-DG-bCd"/>
+                                    <action selector="slideFruitSlider:" destination="2" eventType="touchUpInside" id="9TL-p8-Knl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7O-Ni-Qvb" userLabel="Button - BreadPlus">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="6UB-Hu-4ql"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" image="plusButton.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -165,9 +262,6 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdC-SB-WmH" userLabel="Button - VeggiePlus">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="fGx-aG-1Wg"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" image="plusButton.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -182,9 +276,6 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j66-VT-7k0" userLabel="Button - ProteinPlus">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="ovU-0y-UnF"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" image="plusButton.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -199,9 +290,6 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dil-Ci-p6L" userLabel="Button - DairyPlus">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="PSj-qo-Km4"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" image="plusButton.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -215,38 +303,63 @@
                                     <action selector="slideDairySlider:" destination="2" eventType="touchUpInside" id="E3U-oM-e6z"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="TopBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="PfL-yu-e1V"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="TopBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="PfL-yu-e1V">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="770" id="GAr-3H-AmZ"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wm2-Fy-a71" firstAttribute="trailing" secondItem="2TR-Co-gZe" secondAttribute="trailing" type="default" id="0MY-0y-m1P"/>
-                            <constraint firstItem="06D-1C-zOf" firstAttribute="top" secondItem="16" secondAttribute="top" constant="198" id="0fd-7a-G22"/>
                             <constraint firstItem="cZN-5D-F0O" firstAttribute="top" secondItem="6qw-xs-aSg" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="1BH-BT-Ttd"/>
-                            <constraint firstItem="06D-1C-zOf" firstAttribute="centerX" secondItem="7XN-mo-f5h" secondAttribute="centerX" type="default" id="2Q2-Vg-y5Z"/>
+                            <constraint firstItem="eEl-yG-73a" firstAttribute="top" secondItem="wm2-Fy-a71" secondAttribute="top" type="default" id="1Ds-Mt-wbq"/>
+                            <constraint firstItem="P0s-az-tX3" firstAttribute="bottom" secondItem="A7O-Ni-Qvb" secondAttribute="bottom" type="default" id="1Jj-tr-1gd"/>
+                            <constraint firstItem="A7O-Ni-Qvb" firstAttribute="baseline" secondItem="P0s-az-tX3" secondAttribute="baseline" type="default" id="2MD-CM-gRX"/>
                             <constraint firstItem="YYm-I9-9ds" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="17" id="2kC-Kt-mB5"/>
                             <constraint firstItem="A7O-Ni-Qvb" firstAttribute="leading" secondItem="fcV-rr-t4s" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="5U3-K1-9tI"/>
+                            <constraint firstItem="7XN-mo-f5h" firstAttribute="leading" secondItem="Z3w-Zv-ec3" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="5qJ-VN-zbl"/>
+                            <constraint firstItem="ti2-yp-u6K" firstAttribute="leading" secondItem="pyO-uA-xoc" secondAttribute="leading" type="default" id="6F2-kq-jPp"/>
                             <constraint firstItem="wm2-Fy-a71" firstAttribute="centerY" secondItem="Tgf-1O-Dud" secondAttribute="centerY" type="default" id="6gb-JX-a6d"/>
+                            <constraint firstItem="dil-Ci-p6L" firstAttribute="baseline" secondItem="ti2-yp-u6K" secondAttribute="baseline" type="default" id="7to-Fh-rMW"/>
+                            <constraint firstItem="pyO-uA-xoc" firstAttribute="bottom" secondItem="j66-VT-7k0" secondAttribute="bottom" type="default" id="8wr-wJ-SFz"/>
                             <constraint firstAttribute="trailing" secondItem="j66-VT-7k0" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="B9C-Gv-kK5"/>
                             <constraint firstItem="fcV-rr-t4s" firstAttribute="leading" secondItem="wm2-Fy-a71" secondAttribute="leading" type="default" id="BJE-02-EAg"/>
                             <constraint firstAttribute="trailing" secondItem="A7O-Ni-Qvb" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Bf1-70-7uJ"/>
                             <constraint firstAttribute="trailing" secondItem="pdC-SB-WmH" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Bls-Yv-vBw"/>
                             <constraint firstItem="PfL-yu-e1V" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="CZ3-li-eTl"/>
+                            <constraint firstItem="ti2-yp-u6K" firstAttribute="bottom" secondItem="dil-Ci-p6L" secondAttribute="bottom" type="default" id="Ed5-dA-a1A"/>
                             <constraint firstItem="wm2-Fy-a71" firstAttribute="top" secondItem="5vH-9v-f1s" secondAttribute="top" type="default" id="EuJ-8E-bDU"/>
                             <constraint firstItem="06D-1C-zOf" firstAttribute="leading" secondItem="adt-Hz-ZRW" secondAttribute="leading" type="default" id="FLG-SL-dIF"/>
                             <constraint firstItem="6qw-xs-aSg" firstAttribute="leading" secondItem="viY-bW-5oz" secondAttribute="leading" type="default" id="Fwn-09-lVi"/>
                             <constraint firstItem="GCZ-IZ-Q7Z" firstAttribute="centerY" secondItem="fcV-rr-t4s" secondAttribute="centerY" type="default" id="HBD-nV-iqf"/>
+                            <constraint firstItem="pyO-uA-xoc" firstAttribute="top" secondItem="Uyl-19-q4E" secondAttribute="top" type="default" id="Hhd-K2-BE0"/>
+                            <constraint firstItem="06D-1C-zOf" firstAttribute="top" secondItem="16" secondAttribute="top" constant="198" id="IbU-eo-fl3"/>
                             <constraint firstItem="7XN-mo-f5h" firstAttribute="leading" secondItem="fcV-rr-t4s" secondAttribute="leading" type="default" id="IdB-L7-g8k"/>
                             <constraint firstItem="dil-Ci-p6L" firstAttribute="top" secondItem="cZN-5D-F0O" secondAttribute="top" type="default" id="JVq-cE-flc"/>
                             <constraint firstItem="A7O-Ni-Qvb" firstAttribute="leading" secondItem="5vH-9v-f1s" secondAttribute="leading" type="default" id="L4k-cd-1sD"/>
+                            <constraint firstItem="fcV-rr-t4s" firstAttribute="leading" secondItem="P0s-az-tX3" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="NmW-ve-nG4"/>
+                            <constraint firstAttribute="bottom" secondItem="YYm-I9-9ds" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="Noy-G2-of6"/>
                             <constraint firstItem="pdC-SB-WmH" firstAttribute="top" secondItem="7XN-mo-f5h" secondAttribute="top" type="default" id="NvR-ny-DVB"/>
+                            <constraint firstItem="P0s-az-tX3" firstAttribute="top" secondItem="fcV-rr-t4s" secondAttribute="top" type="default" id="OQz-p3-DnD"/>
                             <constraint firstItem="8KY-6M-fMr" firstAttribute="centerY" secondItem="7XN-mo-f5h" secondAttribute="centerY" type="default" id="OVI-26-Q4z"/>
                             <constraint firstItem="j66-VT-7k0" firstAttribute="top" secondItem="Uyl-19-q4E" secondAttribute="top" type="default" id="OhL-xs-XTf"/>
+                            <constraint firstItem="pyO-uA-xoc" firstAttribute="baseline" secondItem="j66-VT-7k0" secondAttribute="baseline" type="default" id="Onb-hb-S5F"/>
                             <constraint firstItem="g7h-Qr-qpD" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Qlg-Zl-Bah"/>
                             <constraint firstItem="pdC-SB-WmH" firstAttribute="leading" secondItem="A7O-Ni-Qvb" secondAttribute="leading" type="default" id="T78-L4-AiQ"/>
                             <constraint firstItem="fcV-rr-t4s" firstAttribute="top" secondItem="adt-Hz-ZRW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="TFn-sK-vn7"/>
                             <constraint firstItem="j66-VT-7k0" firstAttribute="leading" secondItem="pdC-SB-WmH" secondAttribute="leading" type="default" id="Tdx-QI-YFb"/>
+                            <constraint firstItem="cZN-5D-F0O" firstAttribute="leading" secondItem="ti2-yp-u6K" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="TgH-ph-t7L"/>
+                            <constraint firstItem="2TR-Co-gZe" firstAttribute="leading" secondItem="adt-Hz-ZRW" secondAttribute="leading" type="default" id="U2g-eB-R2t"/>
+                            <constraint firstAttribute="bottom" secondItem="g7h-Qr-qpD" secondAttribute="bottom" constant="83" id="U5s-YU-rIJ"/>
+                            <constraint firstItem="eEl-yG-73a" firstAttribute="leading" secondItem="P0s-az-tX3" secondAttribute="leading" type="default" id="VDy-cW-IAo"/>
+                            <constraint firstItem="Z3w-Zv-ec3" firstAttribute="leading" secondItem="P0s-az-tX3" secondAttribute="leading" type="default" id="WbT-PX-bAo"/>
+                            <constraint firstItem="cZN-5D-F0O" firstAttribute="top" secondItem="ti2-yp-u6K" secondAttribute="top" type="default" id="ZFR-A9-ErV"/>
                             <constraint firstItem="Uyl-19-q4E" firstAttribute="leading" secondItem="7XN-mo-f5h" secondAttribute="leading" type="default" id="ZQ3-Cy-uZT"/>
+                            <constraint firstItem="eEl-yG-73a" firstAttribute="bottom" secondItem="5vH-9v-f1s" secondAttribute="bottom" type="default" id="aS7-vx-Ow7"/>
+                            <constraint firstItem="eEl-yG-73a" firstAttribute="baseline" secondItem="5vH-9v-f1s" secondAttribute="baseline" type="default" id="bfN-YS-cFw"/>
                             <constraint firstItem="GCZ-IZ-Q7Z" firstAttribute="trailing" secondItem="Tgf-1O-Dud" secondAttribute="trailing" type="default" id="bgj-0R-LkM"/>
+                            <constraint firstItem="Uyl-19-q4E" firstAttribute="leading" secondItem="pyO-uA-xoc" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="bmA-iH-x0I"/>
                             <constraint firstItem="GCZ-IZ-Q7Z" firstAttribute="top" secondItem="Tgf-1O-Dud" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="bxd-1l-371"/>
                             <constraint firstItem="GCZ-IZ-Q7Z" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="cPY-pw-8wU"/>
                             <constraint firstItem="PfL-yu-e1V" firstAttribute="centerX" secondItem="16" secondAttribute="centerX" type="default" id="dtU-63-Cnb"/>
@@ -254,24 +367,27 @@
                             <constraint firstItem="g7h-Qr-qpD" firstAttribute="centerY" secondItem="Uyl-19-q4E" secondAttribute="centerY" type="default" id="fH0-ss-h1r"/>
                             <constraint firstItem="YYm-I9-9ds" firstAttribute="centerY" secondItem="cZN-5D-F0O" secondAttribute="centerY" type="default" id="fHw-Qf-peb"/>
                             <constraint firstItem="viY-bW-5oz" firstAttribute="leading" secondItem="06D-1C-zOf" secondAttribute="leading" type="default" id="feB-5z-hy5"/>
+                            <constraint firstItem="Z3w-Zv-ec3" firstAttribute="bottom" secondItem="pdC-SB-WmH" secondAttribute="bottom" type="default" id="fz9-HL-rbo"/>
                             <constraint firstItem="8KY-6M-fMr" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="hDK-g4-bpg"/>
                             <constraint firstItem="pdC-SB-WmH" firstAttribute="leading" secondItem="7XN-mo-f5h" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="hhF-8v-hzE"/>
                             <constraint firstItem="dil-Ci-p6L" firstAttribute="leading" secondItem="cZN-5D-F0O" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="ini-Lb-pWI"/>
-                            <constraint firstAttribute="bottom" secondItem="g7h-Qr-qpD" secondAttribute="bottom" constant="83" id="jLK-7k-7b3"/>
                             <constraint firstItem="8KY-6M-fMr" firstAttribute="trailing" secondItem="g7h-Qr-qpD" secondAttribute="trailing" type="default" id="k8J-BR-EYd"/>
                             <constraint firstItem="wm2-Fy-a71" firstAttribute="top" secondItem="2TR-Co-gZe" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="lK8-gx-jdL"/>
                             <constraint firstItem="Tgf-1O-Dud" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="mvy-ZJ-NZH"/>
-                            <constraint firstItem="Tgf-1O-Dud" firstAttribute="top" secondItem="16" secondAttribute="top" constant="86" id="nng-HA-2fv"/>
+                            <constraint firstItem="wm2-Fy-a71" firstAttribute="leading" secondItem="eEl-yG-73a" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="nhk-ch-1Tt"/>
                             <constraint firstItem="dil-Ci-p6L" firstAttribute="leading" secondItem="j66-VT-7k0" secondAttribute="leading" type="default" id="pzz-gu-52A"/>
+                            <constraint firstItem="Z3w-Zv-ec3" firstAttribute="top" secondItem="7XN-mo-f5h" secondAttribute="top" type="default" id="qK7-cK-z2d"/>
+                            <constraint firstItem="Z3w-Zv-ec3" firstAttribute="leading" secondItem="pyO-uA-xoc" secondAttribute="leading" type="default" id="qP2-o7-fvX"/>
+                            <constraint firstItem="2TR-Co-gZe" firstAttribute="top" secondItem="16" secondAttribute="top" constant="73" id="qom-rV-hkK"/>
                             <constraint firstItem="cZN-5D-F0O" firstAttribute="leading" secondItem="Uyl-19-q4E" secondAttribute="leading" type="default" id="rc6-R3-NJH"/>
                             <constraint firstItem="7XN-mo-f5h" firstAttribute="top" secondItem="06D-1C-zOf" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="tPN-RX-1GN"/>
                             <constraint firstItem="A7O-Ni-Qvb" firstAttribute="top" secondItem="fcV-rr-t4s" secondAttribute="top" type="default" id="trK-hw-v8H"/>
                             <constraint firstItem="5vH-9v-f1s" firstAttribute="leading" secondItem="wm2-Fy-a71" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="u7b-SY-hno"/>
                             <constraint firstItem="GCZ-IZ-Q7Z" firstAttribute="trailing" secondItem="8KY-6M-fMr" secondAttribute="trailing" type="default" id="uNd-NT-K4P"/>
                             <constraint firstAttribute="trailing" secondItem="5vH-9v-f1s" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="v3I-bF-aV7"/>
-                            <constraint firstAttribute="bottom" secondItem="YYm-I9-9ds" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="wSC-Tj-dEb"/>
-                            <constraint firstItem="adt-Hz-ZRW" firstAttribute="leading" secondItem="2TR-Co-gZe" secondAttribute="leading" type="default" id="wbc-7f-875"/>
                             <constraint firstItem="Uyl-19-q4E" firstAttribute="top" secondItem="viY-bW-5oz" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="x84-Wo-ZIo"/>
+                            <constraint firstItem="Z3w-Zv-ec3" firstAttribute="baseline" secondItem="pdC-SB-WmH" secondAttribute="baseline" type="default" id="yOt-2z-Cxy"/>
+                            <constraint firstItem="2TR-Co-gZe" firstAttribute="centerX" secondItem="wm2-Fy-a71" secondAttribute="centerX" type="default" id="yfq-ai-3x3"/>
                             <constraint firstItem="j66-VT-7k0" firstAttribute="leading" secondItem="Uyl-19-q4E" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="z39-xG-a0l"/>
                         </constraints>
                     </view>
@@ -314,10 +430,13 @@
                                 <fontDescription key="fontDescription" type="system" size="system"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="TopBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="T7E-jn-a0g"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="22" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="0q6-IA-e8m"/>
+                            <constraint firstItem="T7E-jn-a0g" firstAttribute="top" secondItem="17" secondAttribute="top" constant="-1" id="Avz-zd-dzn"/>
+                            <constraint firstItem="T7E-jn-a0g" firstAttribute="centerX" secondItem="22" secondAttribute="centerX" type="default" id="BMQ-l9-6aa"/>
                             <constraint firstAttribute="trailing" secondItem="23" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fR4-wH-Ih7"/>
                             <constraint firstItem="23" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="fzb-YA-SeR"/>
                             <constraint firstAttribute="centerY" secondItem="23" secondAttribute="centerY" type="user" id="llH-eD-iPS"/>
@@ -339,16 +458,12 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Settings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bN-Tk-nuC">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="TopBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="J6O-Gd-wX4"/>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="6bN-Tk-nuC" firstAttribute="top" secondItem="7YM-eP-Abd" secondAttribute="top" constant="32" id="IHO-Dq-tal"/>
-                            <constraint firstItem="6bN-Tk-nuC" firstAttribute="leading" secondItem="7YM-eP-Abd" secondAttribute="leading" constant="96" id="XQp-Pk-TeV"/>
+                            <constraint firstItem="J6O-Gd-wX4" firstAttribute="top" secondItem="7YM-eP-Abd" secondAttribute="top" type="default" id="D8e-hx-Vb4"/>
+                            <constraint firstItem="J6O-Gd-wX4" firstAttribute="trailing" secondItem="7YM-eP-Abd" secondAttribute="trailing" type="default" id="aUh-Ua-hff"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="tXU-nD-pSm"/>
@@ -364,7 +479,14 @@
                     <view key="view" contentMode="scaleToFill" id="BdW-Gc-feu">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="TopBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="77Q-Pf-5zE"/>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="77Q-Pf-5zE" firstAttribute="centerX" secondItem="BdW-Gc-feu" secondAttribute="centerX" type="default" id="C5I-dE-lx6"/>
+                            <constraint firstItem="77Q-Pf-5zE" firstAttribute="top" secondItem="BdW-Gc-feu" secondAttribute="top" type="default" id="PpT-Fp-oT2"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="1wx-EV-ffM"/>
                 </viewController>
@@ -399,9 +521,10 @@
         <image name="Dairy.png" width="52" height="45"/>
         <image name="Fruit.png" width="45" height="46"/>
         <image name="Protein.png" width="45" height="45"/>
-        <image name="TopBar.png" width="770" height="42"/>
+        <image name="TopBar.png" width="322" height="42"/>
         <image name="Vegetable.png" width="45" height="45"/>
         <image name="first" width="16" height="16"/>
+        <image name="minusButton.png" width="20" height="20"/>
         <image name="plusButton.png" width="20" height="20"/>
         <image name="second" width="16" height="16"/>
     </resources>
@@ -409,6 +532,16 @@
         <class className="FirstViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
             <relationships>
+                <relationship kind="action" name="infoBread:"/>
+                <relationship kind="action" name="infoDairy:"/>
+                <relationship kind="action" name="infoFruit:"/>
+                <relationship kind="action" name="infoProtein:"/>
+                <relationship kind="action" name="infoVeggie:"/>
+                <relationship kind="action" name="minusBread:"/>
+                <relationship kind="action" name="minusDairy:"/>
+                <relationship kind="action" name="minusFruit:"/>
+                <relationship kind="action" name="minusProtein:"/>
+                <relationship kind="action" name="minusVeggie:"/>
                 <relationship kind="action" name="plusBread:"/>
                 <relationship kind="action" name="plusDairy:"/>
                 <relationship kind="action" name="plusFruit:"/>

@@ -14,6 +14,14 @@
 		157FB05E17221CFF00E64F33 /* Vegetable.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB05917221CFF00E64F33 /* Vegetable.png */; };
 		157FB0611722322D00E64F33 /* plusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB05F1722322D00E64F33 /* plusButton.png */; };
 		157FB0621722322D00E64F33 /* TopBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB0601722322D00E64F33 /* TopBar.png */; };
+		157FB06C17223B5A00E64F33 /* Bread.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB06417223B5A00E64F33 /* Bread.png */; };
+		157FB06D17223B5A00E64F33 /* Dairy.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB06517223B5A00E64F33 /* Dairy.png */; };
+		157FB06E17223B5A00E64F33 /* Fruit.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB06617223B5A00E64F33 /* Fruit.png */; };
+		157FB06F17223B5A00E64F33 /* minusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB06717223B5A00E64F33 /* minusButton.png */; };
+		157FB07017223B5A00E64F33 /* plusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB06817223B5A00E64F33 /* plusButton.png */; };
+		157FB07117223B5A00E64F33 /* Protein.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB06917223B5A00E64F33 /* Protein.png */; };
+		157FB07217223B5A00E64F33 /* TopBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB06A17223B5A00E64F33 /* TopBar.png */; };
+		157FB07317223B5A00E64F33 /* Vegetable.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB06B17223B5A00E64F33 /* Vegetable.png */; };
 		A8009AB1172201CE00F5DDFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8009AB0172201CE00F5DDFC /* UIKit.framework */; };
 		A8009AB3172201CE00F5DDFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8009AB2172201CE00F5DDFC /* Foundation.framework */; };
 		A8009AB5172201CE00F5DDFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8009AB4172201CE00F5DDFC /* CoreGraphics.framework */; };
@@ -57,6 +65,14 @@
 		157FB05917221CFF00E64F33 /* Vegetable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Vegetable.png; path = Resources/Vegetable.png; sourceTree = "<group>"; };
 		157FB05F1722322D00E64F33 /* plusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plusButton.png; path = Resources/plusButton.png; sourceTree = "<group>"; };
 		157FB0601722322D00E64F33 /* TopBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TopBar.png; path = Resources/TopBar.png; sourceTree = "<group>"; };
+		157FB06417223B5A00E64F33 /* Bread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bread.png; sourceTree = "<group>"; };
+		157FB06517223B5A00E64F33 /* Dairy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dairy.png; sourceTree = "<group>"; };
+		157FB06617223B5A00E64F33 /* Fruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fruit.png; sourceTree = "<group>"; };
+		157FB06717223B5A00E64F33 /* minusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minusButton.png; sourceTree = "<group>"; };
+		157FB06817223B5A00E64F33 /* plusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusButton.png; sourceTree = "<group>"; };
+		157FB06917223B5A00E64F33 /* Protein.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Protein.png; sourceTree = "<group>"; };
+		157FB06A17223B5A00E64F33 /* TopBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopBar.png; sourceTree = "<group>"; };
+		157FB06B17223B5A00E64F33 /* Vegetable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vegetable.png; sourceTree = "<group>"; };
 		A8009AAD172201CE00F5DDFC /* DailyServings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyServings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8009AB0172201CE00F5DDFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8009AB2172201CE00F5DDFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,6 +130,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		157FB06317223B5A00E64F33 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				157FB06417223B5A00E64F33 /* Bread.png */,
+				157FB06517223B5A00E64F33 /* Dairy.png */,
+				157FB06617223B5A00E64F33 /* Fruit.png */,
+				157FB06717223B5A00E64F33 /* minusButton.png */,
+				157FB06817223B5A00E64F33 /* plusButton.png */,
+				157FB06917223B5A00E64F33 /* Protein.png */,
+				157FB06A17223B5A00E64F33 /* TopBar.png */,
+				157FB06B17223B5A00E64F33 /* Vegetable.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A8009AA4172201CE00F5DDFC = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +178,7 @@
 		A8009AB6172201CE00F5DDFC /* DailyServings */ = {
 			isa = PBXGroup;
 			children = (
+				157FB06317223B5A00E64F33 /* Resources */,
 				157FB05F1722322D00E64F33 /* plusButton.png */,
 				157FB0601722322D00E64F33 /* TopBar.png */,
 				157FB05517221CFF00E64F33 /* Bread.png */,
@@ -294,6 +326,14 @@
 				157FB05E17221CFF00E64F33 /* Vegetable.png in Resources */,
 				157FB0611722322D00E64F33 /* plusButton.png in Resources */,
 				157FB0621722322D00E64F33 /* TopBar.png in Resources */,
+				157FB06C17223B5A00E64F33 /* Bread.png in Resources */,
+				157FB06D17223B5A00E64F33 /* Dairy.png in Resources */,
+				157FB06E17223B5A00E64F33 /* Fruit.png in Resources */,
+				157FB06F17223B5A00E64F33 /* minusButton.png in Resources */,
+				157FB07017223B5A00E64F33 /* plusButton.png in Resources */,
+				157FB07117223B5A00E64F33 /* Protein.png in Resources */,
+				157FB07217223B5A00E64F33 /* TopBar.png in Resources */,
+				157FB07317223B5A00E64F33 /* Vegetable.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

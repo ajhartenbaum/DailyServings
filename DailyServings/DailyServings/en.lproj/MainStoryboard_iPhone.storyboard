@@ -316,10 +316,10 @@
                             <constraint firstItem="eEl-yG-73a" firstAttribute="top" secondItem="wm2-Fy-a71" secondAttribute="top" type="default" id="1Ds-Mt-wbq"/>
                             <constraint firstItem="P0s-az-tX3" firstAttribute="bottom" secondItem="A7O-Ni-Qvb" secondAttribute="bottom" type="default" id="1Jj-tr-1gd"/>
                             <constraint firstAttribute="bottom" secondItem="ti2-yp-u6K" secondAttribute="bottom" constant="37" id="3gf-JX-jjd"/>
+                            <constraint firstItem="j66-VT-7k0" firstAttribute="bottom" secondItem="pyO-uA-xoc" secondAttribute="bottom" type="default" id="3vs-nI-B0l"/>
                             <constraint firstItem="A7O-Ni-Qvb" firstAttribute="leading" secondItem="fcV-rr-t4s" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="5U3-K1-9tI"/>
                             <constraint firstItem="7XN-mo-f5h" firstAttribute="leading" secondItem="Z3w-Zv-ec3" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="5qJ-VN-zbl"/>
                             <constraint firstItem="ti2-yp-u6K" firstAttribute="leading" secondItem="pyO-uA-xoc" secondAttribute="leading" type="default" id="6F2-kq-jPp"/>
-                            <constraint firstItem="cZN-5D-F0O" firstAttribute="bottom" secondItem="ti2-yp-u6K" secondAttribute="bottom" type="default" id="6f8-Lr-N6V"/>
                             <constraint firstItem="wm2-Fy-a71" firstAttribute="centerY" secondItem="Tgf-1O-Dud" secondAttribute="centerY" type="default" id="6gb-JX-a6d"/>
                             <constraint firstItem="6qw-xs-aSg" firstAttribute="leading" secondItem="cZN-5D-F0O" secondAttribute="leading" type="default" id="Ahy-SC-Mb3"/>
                             <constraint firstAttribute="trailing" secondItem="j66-VT-7k0" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="B9C-Gv-kK5"/>
@@ -334,6 +334,7 @@
                             <constraint firstItem="GCZ-IZ-Q7Z" firstAttribute="centerY" secondItem="fcV-rr-t4s" secondAttribute="centerY" type="default" id="HBD-nV-iqf"/>
                             <constraint firstItem="06D-1C-zOf" firstAttribute="top" secondItem="16" secondAttribute="top" constant="198" id="IbU-eo-fl3"/>
                             <constraint firstItem="7XN-mo-f5h" firstAttribute="leading" secondItem="fcV-rr-t4s" secondAttribute="leading" type="default" id="IdB-L7-g8k"/>
+                            <constraint firstAttribute="bottom" secondItem="Uyl-19-q4E" secondAttribute="bottom" constant="101" id="IsB-o4-etU"/>
                             <constraint firstItem="6qw-xs-aSg" firstAttribute="leading" secondItem="Uyl-19-q4E" secondAttribute="leading" type="default" id="JPP-Ln-ey1"/>
                             <constraint firstItem="A7O-Ni-Qvb" firstAttribute="leading" secondItem="5vH-9v-f1s" secondAttribute="leading" type="default" id="L4k-cd-1sD"/>
                             <constraint firstItem="fcV-rr-t4s" firstAttribute="leading" secondItem="P0s-az-tX3" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="NmW-ve-nG4"/>
@@ -351,9 +352,7 @@
                             <constraint firstAttribute="bottom" secondItem="g7h-Qr-qpD" secondAttribute="bottom" constant="83" id="U5s-YU-rIJ"/>
                             <constraint firstItem="Uyl-19-q4E" firstAttribute="leading" secondItem="viY-bW-5oz" secondAttribute="leading" type="default" id="UQf-hO-dTz"/>
                             <constraint firstItem="eEl-yG-73a" firstAttribute="leading" secondItem="P0s-az-tX3" secondAttribute="leading" type="default" id="VDy-cW-IAo"/>
-                            <constraint firstItem="cZN-5D-F0O" firstAttribute="bottom" secondItem="dil-Ci-p6L" secondAttribute="bottom" type="default" id="Vf2-LV-Rfo"/>
                             <constraint firstItem="Z3w-Zv-ec3" firstAttribute="leading" secondItem="P0s-az-tX3" secondAttribute="leading" type="default" id="WbT-PX-bAo"/>
-                            <constraint firstItem="Uyl-19-q4E" firstAttribute="bottom" secondItem="pyO-uA-xoc" secondAttribute="bottom" type="default" id="aPc-rp-lSb"/>
                             <constraint firstItem="eEl-yG-73a" firstAttribute="bottom" secondItem="5vH-9v-f1s" secondAttribute="bottom" type="default" id="aS7-vx-Ow7"/>
                             <constraint firstItem="YYm-I9-9ds" firstAttribute="trailing" secondItem="g7h-Qr-qpD" secondAttribute="trailing" type="default" id="bNz-9e-rvO"/>
                             <constraint firstItem="GCZ-IZ-Q7Z" firstAttribute="trailing" secondItem="Tgf-1O-Dud" secondAttribute="trailing" type="default" id="bgj-0R-LkM"/>
@@ -361,9 +360,11 @@
                             <constraint firstItem="GCZ-IZ-Q7Z" firstAttribute="top" secondItem="Tgf-1O-Dud" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="bxd-1l-371"/>
                             <constraint firstItem="YYm-I9-9ds" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="byS-85-khc"/>
                             <constraint firstItem="GCZ-IZ-Q7Z" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="cPY-pw-8wU"/>
+                            <constraint firstAttribute="bottom" secondItem="cZN-5D-F0O" secondAttribute="bottom" constant="38" id="e0C-HC-1VD"/>
                             <constraint firstAttribute="trailing" secondItem="dil-Ci-p6L" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ec9-dc-S2o"/>
                             <constraint firstItem="viY-bW-5oz" firstAttribute="leading" secondItem="06D-1C-zOf" secondAttribute="leading" type="default" id="feB-5z-hy5"/>
                             <constraint firstItem="Z3w-Zv-ec3" firstAttribute="bottom" secondItem="pdC-SB-WmH" secondAttribute="bottom" type="default" id="fz9-HL-rbo"/>
+                            <constraint firstItem="ti2-yp-u6K" firstAttribute="bottom" secondItem="dil-Ci-p6L" secondAttribute="bottom" type="default" id="gPv-dB-0hY"/>
                             <constraint firstItem="8KY-6M-fMr" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="hDK-g4-bpg"/>
                             <constraint firstItem="pdC-SB-WmH" firstAttribute="leading" secondItem="7XN-mo-f5h" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="hhF-8v-hzE"/>
                             <constraint firstItem="dil-Ci-p6L" firstAttribute="leading" secondItem="cZN-5D-F0O" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="ini-Lb-pWI"/>
@@ -377,7 +378,6 @@
                             <constraint firstItem="PfL-yu-e1V" firstAttribute="centerX" secondItem="16" secondAttribute="centerX" type="default" id="qX3-ZV-7cZ"/>
                             <constraint firstItem="2TR-Co-gZe" firstAttribute="top" secondItem="16" secondAttribute="top" constant="73" id="qom-rV-hkK"/>
                             <constraint firstItem="viY-bW-5oz" firstAttribute="leading" secondItem="7XN-mo-f5h" secondAttribute="leading" type="default" id="qu3-8P-Izh"/>
-                            <constraint firstItem="Uyl-19-q4E" firstAttribute="bottom" secondItem="j66-VT-7k0" secondAttribute="bottom" type="default" id="scX-n3-hW5"/>
                             <constraint firstItem="7XN-mo-f5h" firstAttribute="top" secondItem="06D-1C-zOf" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="tPN-RX-1GN"/>
                             <constraint firstItem="A7O-Ni-Qvb" firstAttribute="top" secondItem="fcV-rr-t4s" secondAttribute="top" type="default" id="trK-hw-v8H"/>
                             <constraint firstItem="5vH-9v-f1s" firstAttribute="leading" secondItem="wm2-Fy-a71" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="u7b-SY-hno"/>
@@ -607,7 +607,7 @@
         <image name="Fruit.png" width="50" height="51"/>
         <image name="ManualReset.png" width="175" height="50"/>
         <image name="Protein.png" width="50" height="50"/>
-        <image name="TopBar.png" width="323" height="46"/>
+        <image name="TopBar.png" width="324" height="46"/>
         <image name="Vegetable.png" width="50" height="50"/>
         <image name="first" width="16" height="16"/>
         <image name="minusButton.png" width="35" height="35"/>
@@ -662,10 +662,6 @@
         <class className="ThirdViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ThirdViewController.h"/>
             <relationships>
-                <relationship kind="action" name="minusTime:"/>
-                <relationship kind="action" name="plusTime:"/>
-                <relationship kind="action" name="reset:"/>
-                <relationship kind="action" name="updateTime:"/>
                 <relationship kind="outlet" name="timeLabel" candidateClass="UILabel"/>
             </relationships>
         </class>

@@ -12,28 +12,59 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="20">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Loaded by the first view controller — an instance of FirstViewController — specified in the app delegate." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="21">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bi3-uO-mNP">
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Fruit.png" translatesAutoresizingMaskIntoConstraints="NO" id="jGY-EX-2ct"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Bread.png" translatesAutoresizingMaskIntoConstraints="NO" id="1K5-TE-li5"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Vegetable.png" translatesAutoresizingMaskIntoConstraints="NO" id="LDb-Mp-1vz"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Protein.png" translatesAutoresizingMaskIntoConstraints="NO" id="ahG-lz-Yp6"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Dairy.png" translatesAutoresizingMaskIntoConstraints="NO" id="2oc-gb-QpJ"/>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="rIu-MS-J27">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="114" id="s8Z-tk-aEl"/>
+                                        </constraints>
+                                    </slider>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="xa8-SL-ivV"/>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="GeH-YJ-RmH"/>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="5R1-HN-4HN"/>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="e8h-is-dZF"/>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="Ikv-jk-tyi"/>
+                                    <constraint firstItem="2oc-gb-QpJ" firstAttribute="leading" secondItem="Bi3-uO-mNP" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="1Dg-CW-PzK"/>
+                                    <constraint firstItem="xa8-SL-ivV" firstAttribute="centerY" secondItem="1K5-TE-li5" secondAttribute="centerY" type="default" id="1Nj-w0-3Ro"/>
+                                    <constraint firstItem="ahG-lz-Yp6" firstAttribute="top" secondItem="LDb-Mp-1vz" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="33J-wD-bvx"/>
+                                    <constraint firstItem="GeH-YJ-RmH" firstAttribute="trailing" secondItem="xa8-SL-ivV" secondAttribute="trailing" type="default" id="5uP-28-6cO"/>
+                                    <constraint firstItem="5R1-HN-4HN" firstAttribute="leading" secondItem="GeH-YJ-RmH" secondAttribute="leading" type="default" id="9v1-kH-S9j"/>
+                                    <constraint firstAttribute="trailing" secondItem="rIu-MS-J27" secondAttribute="trailing" constant="98" id="CHj-cC-2z1"/>
+                                    <constraint firstItem="jGY-EX-2ct" firstAttribute="top" secondItem="Bi3-uO-mNP" secondAttribute="top" constant="102" id="FDR-9m-c1Z"/>
+                                    <constraint firstItem="2oc-gb-QpJ" firstAttribute="top" secondItem="ahG-lz-Yp6" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="KeH-ll-CGX"/>
+                                    <constraint firstItem="e8h-is-dZF" firstAttribute="leading" secondItem="5R1-HN-4HN" secondAttribute="leading" type="default" id="LxQ-tK-1pr"/>
+                                    <constraint firstItem="rIu-MS-J27" firstAttribute="leading" secondItem="Bi3-uO-mNP" secondAttribute="leading" constant="158" id="MV5-8H-Zrn"/>
+                                    <constraint firstItem="1K5-TE-li5" firstAttribute="top" secondItem="jGY-EX-2ct" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="NTg-AR-3b5"/>
+                                    <constraint firstItem="e8h-is-dZF" firstAttribute="centerY" secondItem="2oc-gb-QpJ" secondAttribute="centerY" type="default" id="QSI-sb-mNH"/>
+                                    <constraint firstItem="ahG-lz-Yp6" firstAttribute="leading" secondItem="Bi3-uO-mNP" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ryz-dD-EH2"/>
+                                    <constraint firstItem="GeH-YJ-RmH" firstAttribute="centerY" secondItem="LDb-Mp-1vz" secondAttribute="centerY" type="default" id="aWg-mV-mMn"/>
+                                    <constraint firstItem="jGY-EX-2ct" firstAttribute="leading" secondItem="Bi3-uO-mNP" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="atB-jH-n7R"/>
+                                    <constraint firstItem="xa8-SL-ivV" firstAttribute="leading" secondItem="rIu-MS-J27" secondAttribute="leading" type="default" id="fb9-fH-5u7"/>
+                                    <constraint firstItem="rIu-MS-J27" firstAttribute="top" secondItem="Bi3-uO-mNP" secondAttribute="top" constant="133" id="h3R-5D-VQO"/>
+                                    <constraint firstItem="GeH-YJ-RmH" firstAttribute="leading" secondItem="xa8-SL-ivV" secondAttribute="leading" type="default" id="h4k-gU-mgw"/>
+                                    <constraint firstItem="LDb-Mp-1vz" firstAttribute="leading" secondItem="Bi3-uO-mNP" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="hWh-Mj-59L"/>
+                                    <constraint firstItem="5R1-HN-4HN" firstAttribute="centerY" secondItem="ahG-lz-Yp6" secondAttribute="centerY" type="default" id="mfq-xh-MuA"/>
+                                    <constraint firstAttribute="bottom" secondItem="2oc-gb-QpJ" secondAttribute="bottom" constant="19" id="mw8-Y3-Ccf"/>
+                                    <constraint firstItem="xa8-SL-ivV" firstAttribute="trailing" secondItem="rIu-MS-J27" secondAttribute="trailing" type="default" id="nen-bM-zEa"/>
+                                    <constraint firstItem="5R1-HN-4HN" firstAttribute="trailing" secondItem="GeH-YJ-RmH" secondAttribute="trailing" type="default" id="o16-HG-ODv"/>
+                                    <constraint firstItem="e8h-is-dZF" firstAttribute="trailing" secondItem="5R1-HN-4HN" secondAttribute="trailing" type="default" id="okM-5i-sum"/>
+                                    <constraint firstItem="LDb-Mp-1vz" firstAttribute="top" secondItem="1K5-TE-li5" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="v3D-Bm-Jj3"/>
+                                    <constraint firstItem="1K5-TE-li5" firstAttribute="leading" secondItem="Bi3-uO-mNP" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="yYp-Ca-NFO"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textView>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="21" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="QBg-X6-fBV"/>
-                            <constraint firstAttribute="trailing" secondItem="20" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Qxj-1L-2Yh"/>
-                            <constraint firstItem="20" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ty9-wx-CyI"/>
-                            <constraint firstItem="21" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Zmm-k2-2L7"/>
-                            <constraint firstItem="21" firstAttribute="top" secondItem="20" secondAttribute="bottom" constant="40" type="user" id="jX0-Wi-kmb"/>
-                            <constraint firstAttribute="centerY" secondItem="21" secondAttribute="centerY" type="user" id="yWk-L2-m9F"/>
+                            <constraint firstAttribute="trailing" secondItem="Bi3-uO-mNP" secondAttribute="trailing" constant="-35" id="JBb-Ys-oK5"/>
+                            <constraint firstItem="Bi3-uO-mNP" firstAttribute="top" secondItem="16" secondAttribute="top" constant="-53" id="K5N-dT-4fa"/>
+                            <constraint firstItem="Bi3-uO-mNP" firstAttribute="bottom" secondItem="16" secondAttribute="bottom" type="default" id="dja-31-tti"/>
+                            <constraint firstItem="Bi3-uO-mNP" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="-15" id="rnR-ej-b1j"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="7"/>
@@ -144,6 +175,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Bread.png" width="80" height="54"/>
+        <image name="Dairy.png" width="80" height="56"/>
+        <image name="Fruit.png" width="80" height="83"/>
+        <image name="Protein.png" width="80" height="46"/>
+        <image name="Vegetable.png" width="80" height="72"/>
         <image name="first" width="16" height="16"/>
         <image name="second" width="16" height="16"/>
     </resources>

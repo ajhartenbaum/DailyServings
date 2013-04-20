@@ -25,6 +25,9 @@
     IBOutlet UISlider* dairySlider;
     IBOutlet UILabel* dairyLabel;
     
+    NSUserDefaults *pref;
 }
+
+@property (nonatomic,retain) NSUserDefaults *pref;
 
 @end

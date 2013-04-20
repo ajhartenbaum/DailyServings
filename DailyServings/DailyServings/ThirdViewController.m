@@ -68,7 +68,7 @@ int resetTime = 12;
 	// Do any additional setup after loading the view.
     
     AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    if(!appDelegate.autoon){
+    if(appDelegate.autoon){
         //On will become pressed (why is this backward?)
         onoff.selectedSegmentIndex = 0;
     }

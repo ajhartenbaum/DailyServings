@@ -17,6 +17,14 @@
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic, assign) bool reset;
 @property (nonatomic, assign) bool autoon;
+/*
+@property (nonatomic, assign) bool fruitval;
+@property (nonatomic, assign) bool vegval;
+@property (nonatomic, assign) bool breadval;
+@property (nonatomic, assign) bool meatval;
+@property (nonatomic, assign) bool dairyval;
+*/
+
 
 
 

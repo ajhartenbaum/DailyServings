@@ -58,34 +58,67 @@ bool autoon = true;
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    // to store
+    [defaults setBool:reset forKey:@"resetness"];
+    [defaults setBool:autoon forKey:@"autoonness"];
+    
+    //[defaults setObject:[NSNumber numberWithInt:fruitval] forKey:@"fruity"];
+    //[defaults setFloat:2.0f forKey:@"fruity"];
+    
+
+    //[defaults setFloat:fruitval forKey:@"fruity"];
+
+    [defaults synchronize];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    reset = [defaults objectForKey:@"resetness"];
+    autoon=[defaults objectForKey:@"autoonness"];
+    
+    //fruitval=[defaults objectForKey:@"fruity"];
+   /* NSNumber *aN1 = [defaults objectForKey:@"fruity"];
+    fruitval = [aN1 intValue];*/
+    
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // to load
-    /*reset = [defaults objectForKey:@"resetness"];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+
+    reset = [defaults objectForKey:@"resetness"];
      autoon=[defaults objectForKey:@"autoonness"];
-    NSInteger anInt = [aNumber intValue];
+    
+    //fruitval=[defaults objectForKey:@"fruity"];
+    /*NSNumber *aN1 = [defaults objectForKey:@"fruity"];
+    fruitval = [aN1 intValue];*/
+    //fruitval = [defaults floatForKey:@"fruity"];
      
-     */
     
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    //reset=false;
+    reset=false;
     
-   /* NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+   NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     // to store
     [defaults setBool:reset forKey:@"resetness"];
     [defaults setBool:autoon forKey:@"autoonness"];
-    [defaults synchronize];*/
+    
+    //[defaults setFloat:fruitval forKey:@"fruity"];
+    //[defaults setObject:[NSNumber numberWithInt:fruitval] forKey:@"fruity"];
+    [defaults setFloat:2.0f forKey:@"fruity"];
+    
+    
+    [defaults synchronize];
     
    
     

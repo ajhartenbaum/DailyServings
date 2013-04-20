@@ -361,7 +361,6 @@
                             <constraint firstItem="GCZ-IZ-Q7Z" firstAttribute="top" secondItem="Tgf-1O-Dud" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="bxd-1l-371"/>
                             <constraint firstItem="YYm-I9-9ds" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="byS-85-khc"/>
                             <constraint firstItem="GCZ-IZ-Q7Z" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="cPY-pw-8wU"/>
-                            <constraint firstItem="PfL-yu-e1V" firstAttribute="centerX" secondItem="16" secondAttribute="centerX" type="default" id="dtU-63-Cnb"/>
                             <constraint firstAttribute="trailing" secondItem="dil-Ci-p6L" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ec9-dc-S2o"/>
                             <constraint firstItem="viY-bW-5oz" firstAttribute="leading" secondItem="06D-1C-zOf" secondAttribute="leading" type="default" id="feB-5z-hy5"/>
                             <constraint firstItem="Z3w-Zv-ec3" firstAttribute="bottom" secondItem="pdC-SB-WmH" secondAttribute="bottom" type="default" id="fz9-HL-rbo"/>
@@ -375,6 +374,7 @@
                             <constraint firstItem="dil-Ci-p6L" firstAttribute="leading" secondItem="j66-VT-7k0" secondAttribute="leading" type="default" id="pzz-gu-52A"/>
                             <constraint firstItem="Z3w-Zv-ec3" firstAttribute="top" secondItem="7XN-mo-f5h" secondAttribute="top" type="default" id="qK7-cK-z2d"/>
                             <constraint firstItem="Z3w-Zv-ec3" firstAttribute="leading" secondItem="pyO-uA-xoc" secondAttribute="leading" type="default" id="qP2-o7-fvX"/>
+                            <constraint firstItem="PfL-yu-e1V" firstAttribute="centerX" secondItem="16" secondAttribute="centerX" type="default" id="qX3-ZV-7cZ"/>
                             <constraint firstItem="2TR-Co-gZe" firstAttribute="top" secondItem="16" secondAttribute="top" constant="73" id="qom-rV-hkK"/>
                             <constraint firstItem="viY-bW-5oz" firstAttribute="leading" secondItem="7XN-mo-f5h" secondAttribute="leading" type="default" id="qu3-8P-Izh"/>
                             <constraint firstItem="Uyl-19-q4E" firstAttribute="bottom" secondItem="j66-VT-7k0" secondAttribute="bottom" type="default" id="scX-n3-hW5"/>
@@ -607,7 +607,7 @@
         <image name="Fruit.png" width="50" height="51"/>
         <image name="ManualReset.png" width="175" height="50"/>
         <image name="Protein.png" width="50" height="50"/>
-        <image name="TopBar.png" width="321" height="46"/>
+        <image name="TopBar.png" width="323" height="46"/>
         <image name="Vegetable.png" width="50" height="50"/>
         <image name="first" width="16" height="16"/>
         <image name="minusButton.png" width="35" height="35"/>

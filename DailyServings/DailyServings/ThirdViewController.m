@@ -7,7 +7,6 @@
 //
 
 #import "ThirdViewController.h"
-#import "FirstViewController.h"
 
 @interface ThirdViewController ()
 
@@ -24,7 +23,7 @@ int resetTime = 12;
 
 -(IBAction)minusTime:(id)sender {
     
-    resetTime = resetTime - 1 ? resetTime - 1 : 12;
+    resetTime = resetTime - 1 > 0? resetTime - 1 : 12;
 }
 
 -(IBAction)updateTime:(id)sender {

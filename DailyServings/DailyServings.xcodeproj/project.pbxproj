@@ -31,6 +31,8 @@
 		15DDE66F17224AEC00AFF793 /* Protein.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDE66617224AEC00AFF793 /* Protein.png */; };
 		15DDE67017224AEC00AFF793 /* TopBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDE66717224AEC00AFF793 /* TopBar.png */; };
 		15DDE67117224AEC00AFF793 /* Vegetable.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDE66817224AEC00AFF793 /* Vegetable.png */; };
+		15DDE67417224EF000AFF793 /* minusButtonWide.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDE67217224EF000AFF793 /* minusButtonWide.png */; };
+		15DDE67517224EF000AFF793 /* plusButtonWide.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDE67317224EF000AFF793 /* plusButtonWide.png */; };
 		A8009AB1172201CE00F5DDFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8009AB0172201CE00F5DDFC /* UIKit.framework */; };
 		A8009AB3172201CE00F5DDFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8009AB2172201CE00F5DDFC /* Foundation.framework */; };
 		A8009AB5172201CE00F5DDFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8009AB4172201CE00F5DDFC /* CoreGraphics.framework */; };
@@ -91,6 +93,8 @@
 		15DDE66617224AEC00AFF793 /* Protein.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Protein.png; sourceTree = "<group>"; };
 		15DDE66717224AEC00AFF793 /* TopBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopBar.png; sourceTree = "<group>"; };
 		15DDE66817224AEC00AFF793 /* Vegetable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vegetable.png; sourceTree = "<group>"; };
+		15DDE67217224EF000AFF793 /* minusButtonWide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minusButtonWide.png; path = Resources/minusButtonWide.png; sourceTree = "<group>"; };
+		15DDE67317224EF000AFF793 /* plusButtonWide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plusButtonWide.png; path = Resources/plusButtonWide.png; sourceTree = "<group>"; };
 		A8009AAD172201CE00F5DDFC /* DailyServings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyServings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8009AB0172201CE00F5DDFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8009AB2172201CE00F5DDFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -212,6 +216,8 @@
 		A8009AB6172201CE00F5DDFC /* DailyServings */ = {
 			isa = PBXGroup;
 			children = (
+				15DDE67217224EF000AFF793 /* minusButtonWide.png */,
+				15DDE67317224EF000AFF793 /* plusButtonWide.png */,
 				15DDE65F17224AEC00AFF793 /* Resources */,
 				157FB06317223B5A00E64F33 /* Resources */,
 				157FB05F1722322D00E64F33 /* plusButton.png */,
@@ -378,6 +384,8 @@
 				15DDE66F17224AEC00AFF793 /* Protein.png in Resources */,
 				15DDE67017224AEC00AFF793 /* TopBar.png in Resources */,
 				15DDE67117224AEC00AFF793 /* Vegetable.png in Resources */,
+				15DDE67417224EF000AFF793 /* minusButtonWide.png in Resources */,
+				15DDE67517224EF000AFF793 /* plusButtonWide.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

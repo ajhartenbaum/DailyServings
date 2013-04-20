@@ -458,12 +458,9 @@
                                     <segment title="PM"/>
                                 </segments>
                             </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ep-M0-Quv">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="73" id="hET-qZ-QW6"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ep-M0-Quv">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="plusButton.png">
+                                <state key="normal" backgroundImage="plusButtonWide.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -475,9 +472,9 @@
                                     <action selector="updateTime:" destination="igC-CC-JaK" eventType="touchUpInside" id="Gm0-C5-3ZT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caw-mq-YLS">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caw-mq-YLS">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="minusButton.png">
+                                <state key="normal" backgroundImage="minusButtonWide.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -512,10 +509,9 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="6BT-SP-yWG" secondAttribute="bottom" constant="68" id="3VL-7x-07M"/>
                             <constraint firstItem="J6O-Gd-wX4" firstAttribute="top" secondItem="7YM-eP-Abd" secondAttribute="top" type="default" id="D8e-hx-Vb4"/>
-                            <constraint firstAttribute="bottom" secondItem="caw-mq-YLS" secondAttribute="bottom" constant="160" id="HyF-ix-wvU"/>
                             <constraint firstAttribute="trailing" secondItem="SaQ-GZ-ncl" secondAttribute="trailing" constant="60" id="LK3-1d-DOx"/>
                             <constraint firstItem="1ep-M0-Quv" firstAttribute="top" secondItem="7YM-eP-Abd" secondAttribute="top" constant="105" id="Tdu-HX-Pwc"/>
-                            <constraint firstItem="caw-mq-YLS" firstAttribute="trailing" secondItem="1ep-M0-Quv" secondAttribute="trailing" type="default" id="Urt-6D-qkG"/>
+                            <constraint firstItem="caw-mq-YLS" firstAttribute="top" secondItem="7YM-eP-Abd" secondAttribute="top" constant="176" id="VYp-jT-oH8"/>
                             <constraint firstItem="1ep-M0-Quv" firstAttribute="leading" secondItem="7YM-eP-Abd" secondAttribute="leading" constant="45" id="ZEe-Fo-tMr"/>
                             <constraint firstItem="J6O-Gd-wX4" firstAttribute="centerX" secondItem="7YM-eP-Abd" secondAttribute="centerX" type="default" id="dDp-tV-Rt1"/>
                             <constraint firstItem="RVi-Um-vWG" firstAttribute="centerX" secondItem="1ep-M0-Quv" secondAttribute="centerX" type="default" id="hLH-KV-4t7"/>
@@ -588,7 +584,9 @@
         <image name="Vegetable.png" width="45" height="45"/>
         <image name="first" width="16" height="16"/>
         <image name="minusButton.png" width="20" height="20"/>
+        <image name="minusButtonWide.png" width="111" height="75"/>
         <image name="plusButton.png" width="20" height="20"/>
+        <image name="plusButtonWide.png" width="111" height="75"/>
         <image name="second" width="16" height="16"/>
     </resources>
     <classes>
@@ -638,7 +636,6 @@
             <relationships>
                 <relationship kind="action" name="minusTime:"/>
                 <relationship kind="action" name="plusTime:"/>
-                <relationship kind="action" name="reset:"/>
                 <relationship kind="action" name="updateTime:"/>
                 <relationship kind="outlet" name="timeLabel" candidateClass="UILabel"/>
             </relationships>

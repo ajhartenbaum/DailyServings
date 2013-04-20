@@ -27,6 +27,4 @@
     
 }
 
--(void)manualReset;
-
 @end

@@ -290,125 +290,125 @@
 				15DDE6A31722715700AFF793 /* settingsIcon.png */,
 				15DDE6A41722715700AFF793 /* TopBar.png */,
 				15DDE6A51722715700AFF793 /* Vegetable.png */,
-			);
+				);
 			path = Resources;
 			sourceTree = "<group>";
 		};
 		A8009AA4172201CE00F5DDFC = {
 			isa = PBXGroup;
 			children = (
-				A89179EE1722710500EE091B /* Default.png */,
-				A89179EC17226EFD00EE091B /* Logo.png */,
-				A8009AB6172201CE00F5DDFC /* DailyServings */,
-				A8009AE8172201CE00F5DDFC /* DailyServingsTests */,
-				A8009AAF172201CE00F5DDFC /* Frameworks */,
-				A8009AAE172201CE00F5DDFC /* Products */,
-			);
+					A89179EE1722710500EE091B /* Default.png */,
+					A89179EC17226EFD00EE091B /* Logo.png */,
+					A8009AB6172201CE00F5DDFC /* DailyServings */,
+					A8009AE8172201CE00F5DDFC /* DailyServingsTests */,
+					A8009AAF172201CE00F5DDFC /* Frameworks */,
+					A8009AAE172201CE00F5DDFC /* Products */,
+				   );
 			sourceTree = "<group>";
 		};
 		A8009AAE172201CE00F5DDFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8009AAD172201CE00F5DDFC /* DailyServings.app */,
-				A8009AE1172201CE00F5DDFC /* DailyServingsTests.octest */,
-			);
+					A8009AAD172201CE00F5DDFC /* DailyServings.app */,
+					A8009AE1172201CE00F5DDFC /* DailyServingsTests.octest */,
+				   );
 			name = Products;
 			sourceTree = "<group>";
 		};
 		A8009AAF172201CE00F5DDFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A8009AB0172201CE00F5DDFC /* UIKit.framework */,
-				A8009AB2172201CE00F5DDFC /* Foundation.framework */,
-				A8009AB4172201CE00F5DDFC /* CoreGraphics.framework */,
-				A8009AE2172201CE00F5DDFC /* SenTestingKit.framework */,
-			);
+					A8009AB0172201CE00F5DDFC /* UIKit.framework */,
+					A8009AB2172201CE00F5DDFC /* Foundation.framework */,
+					A8009AB4172201CE00F5DDFC /* CoreGraphics.framework */,
+					A8009AE2172201CE00F5DDFC /* SenTestingKit.framework */,
+				   );
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A8009AB6172201CE00F5DDFC /* DailyServings */ = {
 			isa = PBXGroup;
 			children = (
-				15DDE6951722715700AFF793 /* Resources */,
-				15DDE6761722661100AFF793 /* Resources */,
-				15DDE67217224EF000AFF793 /* minusButtonWide.png */,
-				15DDE67317224EF000AFF793 /* plusButtonWide.png */,
-				15DDE65F17224AEC00AFF793 /* Resources */,
-				157FB06317223B5A00E64F33 /* Resources */,
-				157FB05F1722322D00E64F33 /* plusButton.png */,
-				157FB0601722322D00E64F33 /* TopBar.png */,
-				157FB05517221CFF00E64F33 /* Bread.png */,
-				157FB05617221CFF00E64F33 /* Dairy.png */,
-				157FB05717221CFF00E64F33 /* Fruit.png */,
-				157FB05817221CFF00E64F33 /* Protein.png */,
-				157FB05917221CFF00E64F33 /* Vegetable.png */,
-				A8009ABF172201CE00F5DDFC /* AppDelegate.h */,
-				A8009AC0172201CE00F5DDFC /* AppDelegate.m */,
-				A8009AC8172201CE00F5DDFC /* MainStoryboard_iPhone.storyboard */,
-				A8009ACB172201CE00F5DDFC /* MainStoryboard_iPad.storyboard */,
-				A8009ACE172201CE00F5DDFC /* FirstViewController.h */,
-				A8009ACF172201CE00F5DDFC /* FirstViewController.m */,
-				A8009AD1172201CE00F5DDFC /* first.png */,
-				A8009AD3172201CE00F5DDFC /* first@2x.png */,
-				A8009AD5172201CE00F5DDFC /* SecondViewController.h */,
-				A8009AD6172201CE00F5DDFC /* SecondViewController.m */,
-				A8009AD8172201CE00F5DDFC /* second.png */,
-				A8009ADA172201CE00F5DDFC /* second@2x.png */,
-				A8009AFC172206EF00F5DDFC /* ThirdViewController.h */,
-				A8009AFD172206EF00F5DDFC /* ThirdViewController.m */,
-				A8009AB7172201CE00F5DDFC /* Supporting Files */,
-			);
+					15DDE6951722715700AFF793 /* Resources */,
+					15DDE6761722661100AFF793 /* Resources */,
+					15DDE67217224EF000AFF793 /* minusButtonWide.png */,
+					15DDE67317224EF000AFF793 /* plusButtonWide.png */,
+					15DDE65F17224AEC00AFF793 /* Resources */,
+					157FB06317223B5A00E64F33 /* Resources */,
+					157FB05F1722322D00E64F33 /* plusButton.png */,
+					157FB0601722322D00E64F33 /* TopBar.png */,
+					157FB05517221CFF00E64F33 /* Bread.png */,
+					157FB05617221CFF00E64F33 /* Dairy.png */,
+					157FB05717221CFF00E64F33 /* Fruit.png */,
+					157FB05817221CFF00E64F33 /* Protein.png */,
+					157FB05917221CFF00E64F33 /* Vegetable.png */,
+					A8009ABF172201CE00F5DDFC /* AppDelegate.h */,
+					A8009AC0172201CE00F5DDFC /* AppDelegate.m */,
+					A8009AC8172201CE00F5DDFC /* MainStoryboard_iPhone.storyboard */,
+					A8009ACB172201CE00F5DDFC /* MainStoryboard_iPad.storyboard */,
+					A8009ACE172201CE00F5DDFC /* FirstViewController.h */,
+					A8009ACF172201CE00F5DDFC /* FirstViewController.m */,
+					A8009AD1172201CE00F5DDFC /* first.png */,
+					A8009AD3172201CE00F5DDFC /* first@2x.png */,
+					A8009AD5172201CE00F5DDFC /* SecondViewController.h */,
+					A8009AD6172201CE00F5DDFC /* SecondViewController.m */,
+					A8009AD8172201CE00F5DDFC /* second.png */,
+					A8009ADA172201CE00F5DDFC /* second@2x.png */,
+					A8009AFC172206EF00F5DDFC /* ThirdViewController.h */,
+					A8009AFD172206EF00F5DDFC /* ThirdViewController.m */,
+					A8009AB7172201CE00F5DDFC /* Supporting Files */,
+					);
 			path = DailyServings;
 			sourceTree = "<group>";
 		};
 		A8009AB7172201CE00F5DDFC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A8009AB8172201CE00F5DDFC /* DailyServings-Info.plist */,
-				A8009AB9172201CE00F5DDFC /* InfoPlist.strings */,
-				A8009ABC172201CE00F5DDFC /* main.m */,
-				A8009ABE172201CE00F5DDFC /* DailyServings-Prefix.pch */,
-				A8009AC2172201CE00F5DDFC /* Default.png */,
-				A8009AC4172201CE00F5DDFC /* Default@2x.png */,
-				A8009AC6172201CE00F5DDFC /* Default-568h@2x.png */,
-			);
+					A8009AB8172201CE00F5DDFC /* DailyServings-Info.plist */,
+					A8009AB9172201CE00F5DDFC /* InfoPlist.strings */,
+					A8009ABC172201CE00F5DDFC /* main.m */,
+					A8009ABE172201CE00F5DDFC /* DailyServings-Prefix.pch */,
+					A8009AC2172201CE00F5DDFC /* Default.png */,
+					A8009AC4172201CE00F5DDFC /* Default@2x.png */,
+					A8009AC6172201CE00F5DDFC /* Default-568h@2x.png */,
+				   );
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		A8009AE8172201CE00F5DDFC /* DailyServingsTests */ = {
 			isa = PBXGroup;
 			children = (
-				A8009AEE172201CE00F5DDFC /* DailyServingsTests.h */,
-				A8009AEF172201CE00F5DDFC /* DailyServingsTests.m */,
-				A8009AE9172201CE00F5DDFC /* Supporting Files */,
-			);
+					A8009AEE172201CE00F5DDFC /* DailyServingsTests.h */,
+					A8009AEF172201CE00F5DDFC /* DailyServingsTests.m */,
+					A8009AE9172201CE00F5DDFC /* Supporting Files */,
+				   );
 			path = DailyServingsTests;
 			sourceTree = "<group>";
 		};
 		A8009AE9172201CE00F5DDFC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A8009AEA172201CE00F5DDFC /* DailyServingsTests-Info.plist */,
-				A8009AEB172201CE00F5DDFC /* InfoPlist.strings */,
-			);
+					A8009AEA172201CE00F5DDFC /* DailyServingsTests-Info.plist */,
+					A8009AEB172201CE00F5DDFC /* InfoPlist.strings */,
+				   );
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-/* End PBXGroup section */
+		/* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
+		/* Begin PBXNativeTarget section */
 		A8009AAC172201CE00F5DDFC /* DailyServings */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8009AF3172201CE00F5DDFC /* Build configuration list for PBXNativeTarget "DailyServings" */;
 			buildPhases = (
-				A8009AA9172201CE00F5DDFC /* Sources */,
-				A8009AAA172201CE00F5DDFC /* Frameworks */,
-				A8009AAB172201CE00F5DDFC /* Resources */,
-			);
+					A8009AA9172201CE00F5DDFC /* Sources */,
+					A8009AAA172201CE00F5DDFC /* Frameworks */,
+					A8009AAB172201CE00F5DDFC /* Resources */,
+				      );
 			buildRules = (
-			);
+				     );
 			dependencies = (
-			);
+				       );
 			name = DailyServings;
 			productName = DailyServings;
 			productReference = A8009AAD172201CE00F5DDFC /* DailyServings.app */;
@@ -418,24 +418,24 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8009AF6172201CF00F5DDFC /* Build configuration list for PBXNativeTarget "DailyServingsTests" */;
 			buildPhases = (
-				A8009ADC172201CE00F5DDFC /* Sources */,
-				A8009ADD172201CE00F5DDFC /* Frameworks */,
-				A8009ADE172201CE00F5DDFC /* Resources */,
-				A8009ADF172201CE00F5DDFC /* ShellScript */,
-			);
+					A8009ADC172201CE00F5DDFC /* Sources */,
+					A8009ADD172201CE00F5DDFC /* Frameworks */,
+					A8009ADE172201CE00F5DDFC /* Resources */,
+					A8009ADF172201CE00F5DDFC /* ShellScript */,
+				      );
 			buildRules = (
-			);
+				     );
 			dependencies = (
-				A8009AE7172201CE00F5DDFC /* PBXTargetDependency */,
-			);
+					A8009AE7172201CE00F5DDFC /* PBXTargetDependency */,
+				       );
 			name = DailyServingsTests;
 			productName = DailyServingsTests;
 			productReference = A8009AE1172201CE00F5DDFC /* DailyServingsTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-/* End PBXNativeTarget section */
+		/* End PBXNativeTarget section */
 
-/* Begin PBXProject section */
+		/* Begin PBXProject section */
 		A8009AA5172201CE00F5DDFC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
@@ -447,192 +447,186 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
-			);
+					en,
+				       );
 			mainGroup = A8009AA4172201CE00F5DDFC;
 			productRefGroup = A8009AAE172201CE00F5DDFC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8009AAC172201CE00F5DDFC /* DailyServings */,
-				A8009AE0172201CE00F5DDFC /* DailyServingsTests */,
-			);
+					A8009AAC172201CE00F5DDFC /* DailyServings */,
+					A8009AE0172201CE00F5DDFC /* DailyServingsTests */,
+				  );
 		};
-/* End PBXProject section */
+		/* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
+		/* Begin PBXResourcesBuildPhase section */
 		A8009AAB172201CE00F5DDFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8009ABB172201CE00F5DDFC /* InfoPlist.strings in Resources */,
-				A8009AC3172201CE00F5DDFC /* Default.png in Resources */,
-				A8009AC5172201CE00F5DDFC /* Default@2x.png in Resources */,
-				A8009AC7172201CE00F5DDFC /* Default-568h@2x.png in Resources */,
-				A8009ACA172201CE00F5DDFC /* MainStoryboard_iPhone.storyboard in Resources */,
-				A8009ACD172201CE00F5DDFC /* MainStoryboard_iPad.storyboard in Resources */,
-				A8009AD2172201CE00F5DDFC /* first.png in Resources */,
-				A8009AD4172201CE00F5DDFC /* first@2x.png in Resources */,
-				A8009AD9172201CE00F5DDFC /* second.png in Resources */,
-				A8009ADB172201CE00F5DDFC /* second@2x.png in Resources */,
-				157FB05A17221CFF00E64F33 /* Bread.png in Resources */,
-				157FB05B17221CFF00E64F33 /* Dairy.png in Resources */,
-				157FB05C17221CFF00E64F33 /* Fruit.png in Resources */,
-				157FB05D17221CFF00E64F33 /* Protein.png in Resources */,
-				157FB05E17221CFF00E64F33 /* Vegetable.png in Resources */,
-				157FB0611722322D00E64F33 /* plusButton.png in Resources */,
-				157FB0621722322D00E64F33 /* TopBar.png in Resources */,
-				157FB06C17223B5A00E64F33 /* Bread.png in Resources */,
-				157FB06D17223B5A00E64F33 /* Dairy.png in Resources */,
-				157FB06E17223B5A00E64F33 /* Fruit.png in Resources */,
-				157FB06F17223B5A00E64F33 /* minusButton.png in Resources */,
-				157FB07017223B5A00E64F33 /* plusButton.png in Resources */,
-				157FB07117223B5A00E64F33 /* Protein.png in Resources */,
-				157FB07217223B5A00E64F33 /* TopBar.png in Resources */,
-				157FB07317223B5A00E64F33 /* Vegetable.png in Resources */,
-				15DDE66917224AEC00AFF793 /* Bread.png in Resources */,
-				15DDE66A17224AEC00AFF793 /* Dairy.png in Resources */,
-				15DDE66B17224AEC00AFF793 /* Fruit.png in Resources */,
-				15DDE66C17224AEC00AFF793 /* ManualReset.png in Resources */,
-				15DDE66D17224AEC00AFF793 /* minusButton.png in Resources */,
-				15DDE66E17224AEC00AFF793 /* plusButton.png in Resources */,
-				15DDE66F17224AEC00AFF793 /* Protein.png in Resources */,
-				15DDE67017224AEC00AFF793 /* TopBar.png in Resources */,
-				15DDE67117224AEC00AFF793 /* Vegetable.png in Resources */,
-				15DDE67417224EF000AFF793 /* minusButtonWide.png in Resources */,
-				15DDE67517224EF000AFF793 /* plusButtonWide.png in Resources */,
-				15DDE6861722661100AFF793 /* Bread.png in Resources */,
-				15DDE6871722661100AFF793 /* Dairy.png in Resources */,
-				15DDE6881722661100AFF793 /* foodIcon.png in Resources */,
-				15DDE6891722661100AFF793 /* Fruit.png in Resources */,
-				15DDE68A1722661100AFF793 /* gear.png in Resources */,
-				15DDE68B1722661100AFF793 /* ManualReset.png in Resources */,
-				15DDE68C1722661100AFF793 /* minusButton.png in Resources */,
-				15DDE68D1722661100AFF793 /* minusButtonWide.png in Resources */,
-				15DDE68E1722661100AFF793 /* plusButton.png in Resources */,
-				15DDE68F1722661100AFF793 /* plusButtonWide.png in Resources */,
-				15DDE6901722661100AFF793 /* Protein.png in Resources */,
-				15DDE6911722661100AFF793 /* rectangle.png in Resources */,
-				15DDE6921722661100AFF793 /* settingsIcon.png in Resources */,
-				15DDE6931722661100AFF793 /* TopBar.png in Resources */,
-				15DDE6941722661100AFF793 /* Vegetable.png in Resources */,
-<<<<<<< HEAD
-				A89179ED17226EFD00EE091B /* Logo.png in Resources */,
-				A89179EF1722710500EE091B /* Default.png in Resources */,
-=======
-				15DDE6A61722715700AFF793 /* Bread.png in Resources */,
-				15DDE6A71722715700AFF793 /* Dairy.png in Resources */,
-				15DDE6A81722715700AFF793 /* foodIcon.png in Resources */,
-				15DDE6A91722715700AFF793 /* Fruit.png in Resources */,
-				15DDE6AA1722715700AFF793 /* gear.png in Resources */,
-				15DDE6AB1722715700AFF793 /* infoIcon.png in Resources */,
-				15DDE6AC1722715700AFF793 /* ManualReset.png in Resources */,
-				15DDE6AD1722715700AFF793 /* minusButton.png in Resources */,
-				15DDE6AE1722715700AFF793 /* minusButtonWide.png in Resources */,
-				15DDE6AF1722715700AFF793 /* plusButton.png in Resources */,
-				15DDE6B01722715700AFF793 /* plusButtonWide.png in Resources */,
-				15DDE6B11722715700AFF793 /* Protein.png in Resources */,
-				15DDE6B21722715700AFF793 /* rectangle.png in Resources */,
-				15DDE6B31722715700AFF793 /* settingsIcon.png in Resources */,
-				15DDE6B41722715700AFF793 /* TopBar.png in Resources */,
-				15DDE6B51722715700AFF793 /* Vegetable.png in Resources */,
->>>>>>> 77e03e7e0f14be879d6f94d9a4953ca671a36997
-			);
+					A8009ABB172201CE00F5DDFC /* InfoPlist.strings in Resources */,
+					A8009AC3172201CE00F5DDFC /* Default.png in Resources */,
+					A8009AC5172201CE00F5DDFC /* Default@2x.png in Resources */,
+					A8009AC7172201CE00F5DDFC /* Default-568h@2x.png in Resources */,
+					A8009ACA172201CE00F5DDFC /* MainStoryboard_iPhone.storyboard in Resources */,
+					A8009ACD172201CE00F5DDFC /* MainStoryboard_iPad.storyboard in Resources */,
+					A8009AD2172201CE00F5DDFC /* first.png in Resources */,
+					A8009AD4172201CE00F5DDFC /* first@2x.png in Resources */,
+					A8009AD9172201CE00F5DDFC /* second.png in Resources */,
+					A8009ADB172201CE00F5DDFC /* second@2x.png in Resources */,
+					157FB05A17221CFF00E64F33 /* Bread.png in Resources */,
+					157FB05B17221CFF00E64F33 /* Dairy.png in Resources */,
+					157FB05C17221CFF00E64F33 /* Fruit.png in Resources */,
+					157FB05D17221CFF00E64F33 /* Protein.png in Resources */,
+					157FB05E17221CFF00E64F33 /* Vegetable.png in Resources */,
+					157FB0611722322D00E64F33 /* plusButton.png in Resources */,
+					157FB0621722322D00E64F33 /* TopBar.png in Resources */,
+					157FB06C17223B5A00E64F33 /* Bread.png in Resources */,
+					157FB06D17223B5A00E64F33 /* Dairy.png in Resources */,
+					157FB06E17223B5A00E64F33 /* Fruit.png in Resources */,
+					157FB06F17223B5A00E64F33 /* minusButton.png in Resources */,
+					157FB07017223B5A00E64F33 /* plusButton.png in Resources */,
+					157FB07117223B5A00E64F33 /* Protein.png in Resources */,
+					157FB07217223B5A00E64F33 /* TopBar.png in Resources */,
+					157FB07317223B5A00E64F33 /* Vegetable.png in Resources */,
+					15DDE66917224AEC00AFF793 /* Bread.png in Resources */,
+					15DDE66A17224AEC00AFF793 /* Dairy.png in Resources */,
+					15DDE66B17224AEC00AFF793 /* Fruit.png in Resources */,
+					15DDE66C17224AEC00AFF793 /* ManualReset.png in Resources */,
+					15DDE66D17224AEC00AFF793 /* minusButton.png in Resources */,
+					15DDE66E17224AEC00AFF793 /* plusButton.png in Resources */,
+					15DDE66F17224AEC00AFF793 /* Protein.png in Resources */,
+					15DDE67017224AEC00AFF793 /* TopBar.png in Resources */,
+					15DDE67117224AEC00AFF793 /* Vegetable.png in Resources */,
+					15DDE67417224EF000AFF793 /* minusButtonWide.png in Resources */,
+					15DDE67517224EF000AFF793 /* plusButtonWide.png in Resources */,
+					15DDE6861722661100AFF793 /* Bread.png in Resources */,
+					15DDE6871722661100AFF793 /* Dairy.png in Resources */,
+					15DDE6881722661100AFF793 /* foodIcon.png in Resources */,
+					15DDE6891722661100AFF793 /* Fruit.png in Resources */,
+					15DDE68A1722661100AFF793 /* gear.png in Resources */,
+					15DDE68B1722661100AFF793 /* ManualReset.png in Resources */,
+					15DDE68C1722661100AFF793 /* minusButton.png in Resources */,
+					15DDE68D1722661100AFF793 /* minusButtonWide.png in Resources */,
+					15DDE68E1722661100AFF793 /* plusButton.png in Resources */,
+					15DDE68F1722661100AFF793 /* plusButtonWide.png in Resources */,
+					15DDE6901722661100AFF793 /* Protein.png in Resources */,
+					15DDE6911722661100AFF793 /* rectangle.png in Resources */,
+					15DDE6921722661100AFF793 /* settingsIcon.png in Resources */,
+					15DDE6931722661100AFF793 /* TopBar.png in Resources */,
+					15DDE6941722661100AFF793 /* Vegetable.png in Resources */,
+					15DDE6A71722715700AFF793 /* Dairy.png in Resources */,
+					15DDE6A81722715700AFF793 /* foodIcon.png in Resources */,
+					15DDE6A91722715700AFF793 /* Fruit.png in Resources */,
+					15DDE6AA1722715700AFF793 /* gear.png in Resources */,
+					15DDE6AB1722715700AFF793 /* infoIcon.png in Resources */,
+					15DDE6AC1722715700AFF793 /* ManualReset.png in Resources */,
+					15DDE6AD1722715700AFF793 /* minusButton.png in Resources */,
+					15DDE6AE1722715700AFF793 /* minusButtonWide.png in Resources */,
+					15DDE6AF1722715700AFF793 /* plusButton.png in Resources */,
+					15DDE6B01722715700AFF793 /* plusButtonWide.png in Resources */,
+					15DDE6B11722715700AFF793 /* Protein.png in Resources */,
+					15DDE6B21722715700AFF793 /* rectangle.png in Resources */,
+					15DDE6B31722715700AFF793 /* settingsIcon.png in Resources */,
+					15DDE6B41722715700AFF793 /* TopBar.png in Resources */,
+					15DDE6B51722715700AFF793 /* Vegetable.png in Resources */,
+						);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A8009ADE172201CE00F5DDFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8009AED172201CE00F5DDFC /* InfoPlist.strings in Resources */,
-			);
+					A8009AED172201CE00F5DDFC /* InfoPlist.strings in Resources */,
+				);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		/* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
+		/* Begin PBXShellScriptBuildPhase section */
 		A8009ADF172201CE00F5DDFC /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
+				);
 			inputPaths = (
-			);
+				     );
 			outputPaths = (
-			);
+				      );
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-/* End PBXShellScriptBuildPhase section */
+		/* End PBXShellScriptBuildPhase section */
 
-/* Begin PBXSourcesBuildPhase section */
+		/* Begin PBXSourcesBuildPhase section */
 		A8009AA9172201CE00F5DDFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8009ABD172201CE00F5DDFC /* main.m in Sources */,
-				A8009AC1172201CE00F5DDFC /* AppDelegate.m in Sources */,
-				A8009AD0172201CE00F5DDFC /* FirstViewController.m in Sources */,
-				A8009AD7172201CE00F5DDFC /* SecondViewController.m in Sources */,
-				A8009AFE172206EF00F5DDFC /* ThirdViewController.m in Sources */,
-			);
+					A8009ABD172201CE00F5DDFC /* main.m in Sources */,
+					A8009AC1172201CE00F5DDFC /* AppDelegate.m in Sources */,
+					A8009AD0172201CE00F5DDFC /* FirstViewController.m in Sources */,
+					A8009AD7172201CE00F5DDFC /* SecondViewController.m in Sources */,
+					A8009AFE172206EF00F5DDFC /* ThirdViewController.m in Sources */,
+				);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A8009ADC172201CE00F5DDFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8009AF0172201CE00F5DDFC /* DailyServingsTests.m in Sources */,
-			);
+					A8009AF0172201CE00F5DDFC /* DailyServingsTests.m in Sources */,
+				);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXSourcesBuildPhase section */
+		/* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
+		/* Begin PBXTargetDependency section */
 		A8009AE7172201CE00F5DDFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A8009AAC172201CE00F5DDFC /* DailyServings */;
 			targetProxy = A8009AE6172201CE00F5DDFC /* PBXContainerItemProxy */;
 		};
-/* End PBXTargetDependency section */
+		/* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
+		/* Begin PBXVariantGroup section */
 		A8009AB9172201CE00F5DDFC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8009ABA172201CE00F5DDFC /* en */,
-			);
+					A8009ABA172201CE00F5DDFC /* en */,
+				   );
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		A8009AC8172201CE00F5DDFC /* MainStoryboard_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8009AC9172201CE00F5DDFC /* en */,
-			);
+					A8009AC9172201CE00F5DDFC /* en */,
+				   );
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		A8009ACB172201CE00F5DDFC /* MainStoryboard_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8009ACC172201CE00F5DDFC /* en */,
-			);
+					A8009ACC172201CE00F5DDFC /* en */,
+				   );
 			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		A8009AEB172201CE00F5DDFC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8009AEC172201CE00F5DDFC /* en */,
-			);
+					A8009AEC172201CE00F5DDFC /* en */,
+				   );
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-/* End PBXVariantGroup section */
+		/* End PBXVariantGroup section */
 
-/* Begin XCBuildConfiguration section */
+		/* Begin XCBuildConfiguration section */
 		A8009AF1172201CE00F5DDFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -651,9 +645,9 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+						"DEBUG=1",
+						"$(inherited)",
+						);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;

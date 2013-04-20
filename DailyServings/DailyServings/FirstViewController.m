@@ -8,11 +8,19 @@
 
 #import "FirstViewController.h"
 
-@interface FirstViewController ()
-
-@end
 
 @implementation FirstViewController
+
+-(IBAction)slideFruitSlider:(id)sender {
+    fruitLabel.text = [NSString stringWithFormat:@"%1.1f",fruitSlider.value];
+    if (fruitSlider.value == 0) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"O!" message:@"This is the very left!" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil, nil];
+                              [alert show];
+                              
+    }
+
+
+}
 
 - (void)viewDidLoad
 {

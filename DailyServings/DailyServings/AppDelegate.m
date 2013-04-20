@@ -13,6 +13,11 @@
 @synthesize reset;
 bool reset = false;
 
+
+-(void)applicationSignificantTimeChange:(UIApplication *)application {
+    reset = true;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
@@ -31,9 +36,10 @@ bool reset = false;
     
     [tabBarItem1 setFinishedSelectedImage:[UIImage imageNamed:@"foodIcon.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"foodIcon.png"]];
     [tabBarItem2 setFinishedSelectedImage:[UIImage imageNamed:@"settingsIcon.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"settingsIcon.png"]];
-    [tabBarItem3 setFinishedSelectedImage:[UIImage imageNamed:@"gear.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"gear.png"]];
+    [tabBarItem3 setFinishedSelectedImage:[UIImage imageNamed:@"infoIcon.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"infoIcon.png"]];
    // [tabBarItem4 setFinishedSelectedImage:[UIImage imageNamed:@"settings_selected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"settings.png"]];
 
+    
     return YES;
 }
 							

@@ -9,6 +9,7 @@
 #import "ThirdViewController.h"
 #import "AppDelegate.h"
 
+
 @interface ThirdViewController ()
 
 @end
@@ -16,6 +17,8 @@
 @implementation ThirdViewController
 
 int resetTime = 12;
+
+//NSTimeInterval timeInt = [timeLabel.text intValue];
 
 -(IBAction)plusTime:(id)sender {
     

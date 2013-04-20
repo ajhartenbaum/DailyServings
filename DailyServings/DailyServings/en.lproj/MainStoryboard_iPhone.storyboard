@@ -12,66 +12,105 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bi3-uO-mNP">
-                                <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Fruit.png" translatesAutoresizingMaskIntoConstraints="NO" id="jGY-EX-2ct"/>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Bread.png" translatesAutoresizingMaskIntoConstraints="NO" id="1K5-TE-li5"/>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Vegetable.png" translatesAutoresizingMaskIntoConstraints="NO" id="LDb-Mp-1vz"/>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Protein.png" translatesAutoresizingMaskIntoConstraints="NO" id="ahG-lz-Yp6"/>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Dairy.png" translatesAutoresizingMaskIntoConstraints="NO" id="2oc-gb-QpJ"/>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="rIu-MS-J27">
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="114" id="s8Z-tk-aEl"/>
-                                        </constraints>
-                                    </slider>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="xa8-SL-ivV"/>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="GeH-YJ-RmH"/>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="5R1-HN-4HN"/>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="e8h-is-dZF"/>
-                                </subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Bread.png" translatesAutoresizingMaskIntoConstraints="NO" id="L1j-D8-ONp"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Vegetable.png" translatesAutoresizingMaskIntoConstraints="NO" id="dK4-l5-0XN"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Protein.png" translatesAutoresizingMaskIntoConstraints="NO" id="o8E-42-OFq"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Dairy.png" translatesAutoresizingMaskIntoConstraints="NO" id="ihw-7R-Bge"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="wm2-Fy-a71">
                                 <constraints>
-                                    <constraint firstItem="2oc-gb-QpJ" firstAttribute="leading" secondItem="Bi3-uO-mNP" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="1Dg-CW-PzK"/>
-                                    <constraint firstItem="xa8-SL-ivV" firstAttribute="centerY" secondItem="1K5-TE-li5" secondAttribute="centerY" type="default" id="1Nj-w0-3Ro"/>
-                                    <constraint firstItem="ahG-lz-Yp6" firstAttribute="top" secondItem="LDb-Mp-1vz" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="33J-wD-bvx"/>
-                                    <constraint firstItem="GeH-YJ-RmH" firstAttribute="trailing" secondItem="xa8-SL-ivV" secondAttribute="trailing" type="default" id="5uP-28-6cO"/>
-                                    <constraint firstItem="5R1-HN-4HN" firstAttribute="leading" secondItem="GeH-YJ-RmH" secondAttribute="leading" type="default" id="9v1-kH-S9j"/>
-                                    <constraint firstAttribute="trailing" secondItem="rIu-MS-J27" secondAttribute="trailing" constant="98" id="CHj-cC-2z1"/>
-                                    <constraint firstItem="jGY-EX-2ct" firstAttribute="top" secondItem="Bi3-uO-mNP" secondAttribute="top" constant="102" id="FDR-9m-c1Z"/>
-                                    <constraint firstItem="2oc-gb-QpJ" firstAttribute="top" secondItem="ahG-lz-Yp6" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="KeH-ll-CGX"/>
-                                    <constraint firstItem="e8h-is-dZF" firstAttribute="leading" secondItem="5R1-HN-4HN" secondAttribute="leading" type="default" id="LxQ-tK-1pr"/>
-                                    <constraint firstItem="rIu-MS-J27" firstAttribute="leading" secondItem="Bi3-uO-mNP" secondAttribute="leading" constant="158" id="MV5-8H-Zrn"/>
-                                    <constraint firstItem="1K5-TE-li5" firstAttribute="top" secondItem="jGY-EX-2ct" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="NTg-AR-3b5"/>
-                                    <constraint firstItem="e8h-is-dZF" firstAttribute="centerY" secondItem="2oc-gb-QpJ" secondAttribute="centerY" type="default" id="QSI-sb-mNH"/>
-                                    <constraint firstItem="ahG-lz-Yp6" firstAttribute="leading" secondItem="Bi3-uO-mNP" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ryz-dD-EH2"/>
-                                    <constraint firstItem="GeH-YJ-RmH" firstAttribute="centerY" secondItem="LDb-Mp-1vz" secondAttribute="centerY" type="default" id="aWg-mV-mMn"/>
-                                    <constraint firstItem="jGY-EX-2ct" firstAttribute="leading" secondItem="Bi3-uO-mNP" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="atB-jH-n7R"/>
-                                    <constraint firstItem="xa8-SL-ivV" firstAttribute="leading" secondItem="rIu-MS-J27" secondAttribute="leading" type="default" id="fb9-fH-5u7"/>
-                                    <constraint firstItem="rIu-MS-J27" firstAttribute="top" secondItem="Bi3-uO-mNP" secondAttribute="top" constant="133" id="h3R-5D-VQO"/>
-                                    <constraint firstItem="GeH-YJ-RmH" firstAttribute="leading" secondItem="xa8-SL-ivV" secondAttribute="leading" type="default" id="h4k-gU-mgw"/>
-                                    <constraint firstItem="LDb-Mp-1vz" firstAttribute="leading" secondItem="Bi3-uO-mNP" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="hWh-Mj-59L"/>
-                                    <constraint firstItem="5R1-HN-4HN" firstAttribute="centerY" secondItem="ahG-lz-Yp6" secondAttribute="centerY" type="default" id="mfq-xh-MuA"/>
-                                    <constraint firstAttribute="bottom" secondItem="2oc-gb-QpJ" secondAttribute="bottom" constant="19" id="mw8-Y3-Ccf"/>
-                                    <constraint firstItem="xa8-SL-ivV" firstAttribute="trailing" secondItem="rIu-MS-J27" secondAttribute="trailing" type="default" id="nen-bM-zEa"/>
-                                    <constraint firstItem="5R1-HN-4HN" firstAttribute="trailing" secondItem="GeH-YJ-RmH" secondAttribute="trailing" type="default" id="o16-HG-ODv"/>
-                                    <constraint firstItem="e8h-is-dZF" firstAttribute="trailing" secondItem="5R1-HN-4HN" secondAttribute="trailing" type="default" id="okM-5i-sum"/>
-                                    <constraint firstItem="LDb-Mp-1vz" firstAttribute="top" secondItem="1K5-TE-li5" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="v3D-Bm-Jj3"/>
-                                    <constraint firstItem="1K5-TE-li5" firstAttribute="leading" secondItem="Bi3-uO-mNP" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="yYp-Ca-NFO"/>
+                                    <constraint firstAttribute="width" constant="139" id="zJa-dw-zT5"/>
                                 </constraints>
-                            </scrollView>
+                                <connections>
+                                    <action selector="slideFruitSlider:" destination="2" eventType="editingChanged" id="PRQ-xY-Zcy"/>
+                                    <action selector="slideFruitSlider:" destination="2" eventType="valueChanged" id="txu-71-Tdu"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="fcV-rr-t4s"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="7XN-mo-f5h"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Uyl-19-q4E"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="cZN-5D-F0O"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2TR-Co-gZe" userLabel="Label - FruitLabel">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adt-Hz-ZRW" userLabel="Label - BreadLabel">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06D-1C-zOf" userLabel="Label - VeggieLabel">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viY-bW-5oz" userLabel="Label - ProteinLabel">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6qw-xs-aSg" userLabel="Label - DairyLabel">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tgf-1O-Dud">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="Fruit.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Bi3-uO-mNP" secondAttribute="trailing" constant="-35" id="JBb-Ys-oK5"/>
-                            <constraint firstItem="Bi3-uO-mNP" firstAttribute="top" secondItem="16" secondAttribute="top" constant="-53" id="K5N-dT-4fa"/>
-                            <constraint firstItem="Bi3-uO-mNP" firstAttribute="bottom" secondItem="16" secondAttribute="bottom" type="default" id="dja-31-tti"/>
-                            <constraint firstItem="Bi3-uO-mNP" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="-15" id="rnR-ej-b1j"/>
+                            <constraint firstItem="cZN-5D-F0O" firstAttribute="top" secondItem="6qw-xs-aSg" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="1BH-BT-Ttd"/>
+                            <constraint firstAttribute="bottom" secondItem="cZN-5D-F0O" secondAttribute="bottom" constant="36" id="1nx-x3-X0L"/>
+                            <constraint firstItem="fcV-rr-t4s" firstAttribute="centerY" secondItem="L1j-D8-ONp" secondAttribute="centerY" type="default" id="20a-tM-fdm"/>
+                            <constraint firstItem="06D-1C-zOf" firstAttribute="top" secondItem="16" secondAttribute="top" constant="198" id="3DF-jR-UQv"/>
+                            <constraint firstItem="2TR-Co-gZe" firstAttribute="trailing" secondItem="wm2-Fy-a71" secondAttribute="trailing" type="default" id="8kh-Sy-leB"/>
+                            <constraint firstAttribute="bottom" secondItem="Uyl-19-q4E" secondAttribute="bottom" constant="99" id="9Kd-ba-p7U"/>
+                            <constraint firstItem="o8E-42-OFq" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="AmU-rP-8TD"/>
+                            <constraint firstItem="fcV-rr-t4s" firstAttribute="leading" secondItem="wm2-Fy-a71" secondAttribute="leading" type="default" id="BJE-02-EAg"/>
+                            <constraint firstItem="2TR-Co-gZe" firstAttribute="top" secondItem="16" secondAttribute="top" constant="73" id="Cc3-7g-0eC"/>
+                            <constraint firstItem="06D-1C-zOf" firstAttribute="leading" secondItem="adt-Hz-ZRW" secondAttribute="leading" type="default" id="FLG-SL-dIF"/>
+                            <constraint firstItem="L1j-D8-ONp" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Feh-EU-aYS"/>
+                            <constraint firstItem="6qw-xs-aSg" firstAttribute="leading" secondItem="viY-bW-5oz" secondAttribute="leading" type="default" id="Fwn-09-lVi"/>
+                            <constraint firstItem="7XN-mo-f5h" firstAttribute="leading" secondItem="fcV-rr-t4s" secondAttribute="leading" type="default" id="IdB-L7-g8k"/>
+                            <constraint firstItem="ihw-7R-Bge" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Itk-z5-1mD"/>
+                            <constraint firstItem="dK4-l5-0XN" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="M0d-kr-AGa"/>
+                            <constraint firstItem="Tgf-1O-Dud" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="9" id="SRn-aS-DBx"/>
+                            <constraint firstItem="06D-1C-zOf" firstAttribute="trailing" secondItem="7XN-mo-f5h" secondAttribute="trailing" type="default" id="TAD-NS-fA3"/>
+                            <constraint firstItem="fcV-rr-t4s" firstAttribute="top" secondItem="adt-Hz-ZRW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="TFn-sK-vn7"/>
+                            <constraint firstItem="o8E-42-OFq" firstAttribute="top" secondItem="dK4-l5-0XN" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="VXJ-mt-tKX"/>
+                            <constraint firstItem="viY-bW-5oz" firstAttribute="trailing" secondItem="Uyl-19-q4E" secondAttribute="trailing" type="default" id="WGe-68-G1a"/>
+                            <constraint firstItem="6qw-xs-aSg" firstAttribute="trailing" secondItem="cZN-5D-F0O" secondAttribute="trailing" type="default" id="Z20-pt-2b6"/>
+                            <constraint firstItem="Uyl-19-q4E" firstAttribute="leading" secondItem="7XN-mo-f5h" secondAttribute="leading" type="default" id="ZQ3-Cy-uZT"/>
+                            <constraint firstItem="wm2-Fy-a71" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="130" id="ezd-TI-ogi"/>
+                            <constraint firstItem="viY-bW-5oz" firstAttribute="leading" secondItem="06D-1C-zOf" secondAttribute="leading" type="default" id="feB-5z-hy5"/>
+                            <constraint firstItem="ihw-7R-Bge" firstAttribute="top" secondItem="o8E-42-OFq" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="l9K-eu-jl0"/>
+                            <constraint firstItem="adt-Hz-ZRW" firstAttribute="trailing" secondItem="fcV-rr-t4s" secondAttribute="trailing" type="default" id="qDG-j0-9hp"/>
+                            <constraint firstItem="dK4-l5-0XN" firstAttribute="top" secondItem="L1j-D8-ONp" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="qhC-UV-4uq"/>
+                            <constraint firstItem="cZN-5D-F0O" firstAttribute="leading" secondItem="Uyl-19-q4E" secondAttribute="leading" type="default" id="rc6-R3-NJH"/>
+                            <constraint firstItem="7XN-mo-f5h" firstAttribute="top" secondItem="06D-1C-zOf" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="tPN-RX-1GN"/>
+                            <constraint firstItem="Tgf-1O-Dud" firstAttribute="top" secondItem="16" secondAttribute="top" constant="80" id="to9-Ch-nwL"/>
+                            <constraint firstItem="wm2-Fy-a71" firstAttribute="top" secondItem="2TR-Co-gZe" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="wN4-yE-YxR"/>
+                            <constraint firstItem="adt-Hz-ZRW" firstAttribute="leading" secondItem="2TR-Co-gZe" secondAttribute="leading" type="default" id="wbc-7f-875"/>
+                            <constraint firstItem="Uyl-19-q4E" firstAttribute="top" secondItem="viY-bW-5oz" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="x84-Wo-ZIo"/>
+                            <constraint firstAttribute="bottom" secondItem="ihw-7R-Bge" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="yRd-Jq-NDi"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="7"/>
+                    <connections>
+                        <outlet property="fruitSlider" destination="wm2-Fy-a71" id="iSD-DG-XTl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="629" y="-292"/>
+            <point key="canvasLocation" x="626" y="-278"/>
         </scene>
         <!--Second View Controller - Second-->
         <scene sceneID="13">
@@ -175,17 +214,22 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Bread.png" width="80" height="54"/>
-        <image name="Dairy.png" width="80" height="56"/>
-        <image name="Fruit.png" width="80" height="83"/>
-        <image name="Protein.png" width="80" height="46"/>
-        <image name="Vegetable.png" width="80" height="72"/>
+        <image name="Bread.png" width="55" height="54"/>
+        <image name="Dairy.png" width="55" height="55"/>
+        <image name="Fruit.png" width="55" height="54"/>
+        <image name="Protein.png" width="55" height="55"/>
+        <image name="Vegetable.png" width="55" height="55"/>
         <image name="first" width="16" height="16"/>
         <image name="second" width="16" height="16"/>
     </resources>
     <classes>
         <class className="FirstViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="slideFruitSlider:"/>
+                <relationship kind="outlet" name="fruitLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="fruitSlider" candidateClass="UISlider"/>
+            </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>

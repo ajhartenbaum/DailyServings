@@ -104,10 +104,6 @@
 		A8009AEF172201CE00F5DDFC /* DailyServingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyServingsTests.m; sourceTree = "<group>"; };
 		A8009AFC172206EF00F5DDFC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		A8009AFD172206EF00F5DDFC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		A81B888F17227959006368BB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		A81B88911722795E006368BB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		A89179EC17226EFD00EE091B /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
-		A89179EE1722710500EE091B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,10 +156,6 @@
 		A8009AA4172201CE00F5DDFC = {
 			isa = PBXGroup;
 			children = (
-				A81B88911722795E006368BB /* Default-568h@2x.png */,
-				A81B888F17227959006368BB /* Default@2x.png */,
-				A89179EE1722710500EE091B /* Default.png */,
-				A89179EC17226EFD00EE091B /* Logo.png */,
 				A8009AB6172201CE00F5DDFC /* DailyServings */,
 				A8009AE8172201CE00F5DDFC /* DailyServingsTests */,
 				A8009AAF172201CE00F5DDFC /* Frameworks */,

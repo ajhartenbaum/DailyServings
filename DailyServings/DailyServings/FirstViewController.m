@@ -11,6 +11,14 @@
 
 @implementation FirstViewController
 
+-(void)manualReset {
+    fruitSlider.value = 0;
+    breadSlider.value = 0;
+    veggieSlider.value = 0;
+    proteinSlider.value = 0;
+    dairySlider.value = 0;
+}
+
 -(IBAction)infoFruit:(id)sender {
     
     UIAlertView* mes=[[UIAlertView alloc] initWithTitle:@"Fruit Serving Size"

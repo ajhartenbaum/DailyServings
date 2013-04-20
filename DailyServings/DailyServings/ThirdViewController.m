@@ -7,12 +7,30 @@
 //
 
 #import "ThirdViewController.h"
+#import "FirstViewController.h"
 
 @interface ThirdViewController ()
 
 @end
 
 @implementation ThirdViewController
+
+int resetTime = 12;
+
+-(IBAction)plusTime:(id)sender {
+    
+    resetTime = resetTime + 1 < 13 ? resetTime + 1 : 1;
+}
+
+-(IBAction)minusTime:(id)sender {
+    
+    resetTime = resetTime - 1 ? resetTime - 1 : 12;
+}
+
+-(IBAction)updateTime:(id)sender {
+    
+    timeLabel.text = [NSString stringWithFormat:@"%d",resetTime];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -22,7 +40,11 @@
     }
     return self;
 }
-
+/*
+-(IBAction)reset:(id)sender {
+    manualReset();
+}
+*/
 - (void)viewDidLoad
 {
     [super viewDidLoad];

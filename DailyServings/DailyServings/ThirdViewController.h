@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ThirdViewController : UIViewController
+@interface ThirdViewController : UIViewController {
+    
+    int resetTime;
+    IBOutlet UILabel* timeLabel;
+
+}
 
 @end

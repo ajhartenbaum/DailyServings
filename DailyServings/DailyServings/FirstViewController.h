@@ -27,6 +27,6 @@
     
 }
 
--(IBAction)slideFruitSlider:(id)sender;
+-(void)manualReset;
 
 @end

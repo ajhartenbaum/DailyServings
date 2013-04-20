@@ -13,6 +13,18 @@
     IBOutlet UISlider* fruitSlider;
     IBOutlet UILabel* fruitLabel;
     
+    IBOutlet UISlider* breadSlider;
+    IBOutlet UILabel* breadLabel;
+    
+    IBOutlet UISlider* veggieSlider;
+    IBOutlet UILabel* veggieLabel;
+    
+    IBOutlet UISlider* proteinSlider;
+    IBOutlet UILabel* proteinLabel;
+    
+    IBOutlet UISlider* dairySlider;
+    IBOutlet UILabel* dairyLabel;
+    
 }
 
 -(IBAction)slideFruitSlider:(id)sender;

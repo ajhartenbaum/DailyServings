@@ -12,6 +12,8 @@
 		157FB05C17221CFF00E64F33 /* Fruit.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB05717221CFF00E64F33 /* Fruit.png */; };
 		157FB05D17221CFF00E64F33 /* Protein.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB05817221CFF00E64F33 /* Protein.png */; };
 		157FB05E17221CFF00E64F33 /* Vegetable.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB05917221CFF00E64F33 /* Vegetable.png */; };
+		157FB0611722322D00E64F33 /* plusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB05F1722322D00E64F33 /* plusButton.png */; };
+		157FB0621722322D00E64F33 /* TopBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 157FB0601722322D00E64F33 /* TopBar.png */; };
 		A8009AB1172201CE00F5DDFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8009AB0172201CE00F5DDFC /* UIKit.framework */; };
 		A8009AB3172201CE00F5DDFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8009AB2172201CE00F5DDFC /* Foundation.framework */; };
 		A8009AB5172201CE00F5DDFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8009AB4172201CE00F5DDFC /* CoreGraphics.framework */; };
@@ -53,6 +55,8 @@
 		157FB05717221CFF00E64F33 /* Fruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fruit.png; path = Resources/Fruit.png; sourceTree = "<group>"; };
 		157FB05817221CFF00E64F33 /* Protein.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Protein.png; path = Resources/Protein.png; sourceTree = "<group>"; };
 		157FB05917221CFF00E64F33 /* Vegetable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Vegetable.png; path = Resources/Vegetable.png; sourceTree = "<group>"; };
+		157FB05F1722322D00E64F33 /* plusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plusButton.png; path = Resources/plusButton.png; sourceTree = "<group>"; };
+		157FB0601722322D00E64F33 /* TopBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TopBar.png; path = Resources/TopBar.png; sourceTree = "<group>"; };
 		A8009AAD172201CE00F5DDFC /* DailyServings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyServings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8009AB0172201CE00F5DDFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8009AB2172201CE00F5DDFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,6 +147,8 @@
 		A8009AB6172201CE00F5DDFC /* DailyServings */ = {
 			isa = PBXGroup;
 			children = (
+				157FB05F1722322D00E64F33 /* plusButton.png */,
+				157FB0601722322D00E64F33 /* TopBar.png */,
 				157FB05517221CFF00E64F33 /* Bread.png */,
 				157FB05617221CFF00E64F33 /* Dairy.png */,
 				157FB05717221CFF00E64F33 /* Fruit.png */,
@@ -286,6 +292,8 @@
 				157FB05C17221CFF00E64F33 /* Fruit.png in Resources */,
 				157FB05D17221CFF00E64F33 /* Protein.png in Resources */,
 				157FB05E17221CFF00E64F33 /* Vegetable.png in Resources */,
+				157FB0611722322D00E64F33 /* plusButton.png in Resources */,
+				157FB0621722322D00E64F33 /* TopBar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

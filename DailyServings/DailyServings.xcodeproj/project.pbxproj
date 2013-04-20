@@ -71,6 +71,8 @@
 		A8009AED172201CE00F5DDFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8009AEB172201CE00F5DDFC /* InfoPlist.strings */; };
 		A8009AF0172201CE00F5DDFC /* DailyServingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8009AEF172201CE00F5DDFC /* DailyServingsTests.m */; };
 		A8009AFE172206EF00F5DDFC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8009AFD172206EF00F5DDFC /* ThirdViewController.m */; };
+		A89179ED17226EFD00EE091B /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A89179EC17226EFD00EE091B /* Logo.png */; };
+		A89179EF1722710500EE091B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A89179EE1722710500EE091B /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +158,8 @@
 		A8009AEF172201CE00F5DDFC /* DailyServingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyServingsTests.m; sourceTree = "<group>"; };
 		A8009AFC172206EF00F5DDFC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		A8009AFD172206EF00F5DDFC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		A89179EC17226EFD00EE091B /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		A89179EE1722710500EE091B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +242,8 @@
 		A8009AA4172201CE00F5DDFC = {
 			isa = PBXGroup;
 			children = (
+				A89179EE1722710500EE091B /* Default.png */,
+				A89179EC17226EFD00EE091B /* Logo.png */,
 				A8009AB6172201CE00F5DDFC /* DailyServings */,
 				A8009AE8172201CE00F5DDFC /* DailyServingsTests */,
 				A8009AAF172201CE00F5DDFC /* Frameworks */,
@@ -454,6 +460,8 @@
 				15DDE6921722661100AFF793 /* settingsIcon.png in Resources */,
 				15DDE6931722661100AFF793 /* TopBar.png in Resources */,
 				15DDE6941722661100AFF793 /* Vegetable.png in Resources */,
+				A89179ED17226EFD00EE091B /* Logo.png in Resources */,
+				A89179EF1722710500EE091B /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

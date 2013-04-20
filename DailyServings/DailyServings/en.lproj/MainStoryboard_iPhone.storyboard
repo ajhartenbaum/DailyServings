@@ -411,16 +411,20 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="22">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" text="Loaded by the second view controller — an instance of SecondViewController — specified in the app delegate." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="23">
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="88" id="cQR-IW-sY8"/>
+                                    <constraint firstAttribute="height" constant="111" id="Hcv-90-VNh"/>
                                 </constraints>
+                                <string key="text">This app was created by Georgia Tech students. It has not been reviewed by licensed physicians or nutritionists. Please consult a doctor, before starting a new diet program</string>
+                                <fontDescription key="fontDescription" type="system" size="system"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVh-av-B2Y">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="142" id="dLZ-fi-95P"/>
+                                    <constraint firstAttribute="width" constant="280" id="hbn-PK-F1U"/>
+                                </constraints>
+                                <string key="text">This app allows you to keep track of which foods from each of the five food groups you have consumed in a day. The maximum amounts are the reccommended daily servings for each food group. The app resets itself at midnight.</string>
                                 <fontDescription key="fontDescription" type="system" size="system"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textView>
@@ -430,17 +434,38 @@
                                     <constraint firstAttribute="height" constant="42" id="Ove-vj-1eD"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Purpose of this app" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="StK-c9-Alo">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Spx-HW-ccb"/>
+                                    <constraint firstAttribute="width" constant="194" id="z8v-Nz-nOh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Disclaimer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ry3-GA-TNn">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="LDe-nI-mnQ"/>
+                                    <constraint firstAttribute="width" constant="122" id="trU-Gu-Jnt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="22" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="0q6-IA-e8m"/>
-                            <constraint firstItem="T7E-jn-a0g" firstAttribute="centerX" secondItem="22" secondAttribute="centerX" type="default" id="BMQ-l9-6aa"/>
+                            <constraint firstItem="StK-c9-Alo" firstAttribute="top" secondItem="17" secondAttribute="top" constant="76" id="2K8-xV-NUr"/>
+                            <constraint firstItem="StK-c9-Alo" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="22" id="8il-HT-97B"/>
+                            <constraint firstItem="eVh-av-B2Y" firstAttribute="top" secondItem="17" secondAttribute="top" constant="95" id="Dop-jC-Mbr"/>
                             <constraint firstItem="T7E-jn-a0g" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="KRF-D0-VpC"/>
-                            <constraint firstAttribute="trailing" secondItem="23" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fR4-wH-Ih7"/>
-                            <constraint firstItem="23" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="fzb-YA-SeR"/>
-                            <constraint firstAttribute="centerY" secondItem="23" secondAttribute="centerY" type="user" id="llH-eD-iPS"/>
-                            <constraint firstAttribute="trailing" secondItem="22" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="pc3-9Y-W42"/>
-                            <constraint firstItem="23" firstAttribute="top" secondItem="22" secondAttribute="bottom" constant="40" type="user" id="yUx-Ee-KEk"/>
+                            <constraint firstItem="eVh-av-B2Y" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="14" id="ThY-cU-9La"/>
+                            <constraint firstItem="23" firstAttribute="trailing" secondItem="eVh-av-B2Y" secondAttribute="trailing" type="default" id="cXF-yV-nlV"/>
+                            <constraint firstAttribute="bottom" secondItem="ry3-GA-TNn" secondAttribute="bottom" constant="130" id="dXZ-JH-pWg"/>
+                            <constraint firstAttribute="bottom" secondItem="23" secondAttribute="bottom" constant="23" id="gnq-sx-dkW"/>
+                            <constraint firstItem="T7E-jn-a0g" firstAttribute="centerX" secondItem="17" secondAttribute="centerX" type="default" id="qLJ-Uf-Hm7"/>
+                            <constraint firstItem="ry3-GA-TNn" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="21" id="rNj-76-Nns"/>
+                            <constraint firstItem="23" firstAttribute="leading" secondItem="eVh-av-B2Y" secondAttribute="leading" type="default" id="rz4-F7-MWr"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="6"/>

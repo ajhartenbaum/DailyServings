@@ -472,6 +472,19 @@
                                     <action selector="updateTime:" destination="igC-CC-JaK" eventType="touchUpInside" id="Gm0-C5-3ZT"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6BT-SP-yWG">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="ManualReset.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="reset:" destination="igC-CC-JaK" eventType="touchUpInside" id="twx-pu-7Je"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caw-mq-YLS">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="minusButtonWide.png">
@@ -486,39 +499,38 @@
                                     <action selector="updateTime:" destination="igC-CC-JaK" eventType="touchUpInside" id="e4u-2A-LIU"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="12" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVi-Um-vWG">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="rectangle.png" translatesAutoresizingMaskIntoConstraints="NO" id="hH2-Vk-M4b">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="7Mg-fd-GFx"/>
+                                    <constraint firstAttribute="width" constant="112" id="XBR-Wb-G0A"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVi-Um-vWG">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="2aq-Bu-ZDk"/>
+                                    <constraint firstAttribute="width" constant="43" id="gXj-ud-i01"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6BT-SP-yWG">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" backgroundImage="ManualReset.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="reset:" destination="igC-CC-JaK" eventType="touchUpInside" id="twx-pu-7Je"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="6BT-SP-yWG" secondAttribute="bottom" constant="68" id="3VL-7x-07M"/>
+                            <constraint firstItem="1ep-M0-Quv" firstAttribute="leading" secondItem="7YM-eP-Abd" secondAttribute="leading" constant="46" id="5uU-et-GgE"/>
+                            <constraint firstItem="hH2-Vk-M4b" firstAttribute="top" secondItem="7YM-eP-Abd" secondAttribute="top" constant="123" id="5wV-f9-y1M"/>
                             <constraint firstItem="J6O-Gd-wX4" firstAttribute="top" secondItem="7YM-eP-Abd" secondAttribute="top" type="default" id="D8e-hx-Vb4"/>
-                            <constraint firstAttribute="trailing" secondItem="SaQ-GZ-ncl" secondAttribute="trailing" constant="60" id="LK3-1d-DOx"/>
-                            <constraint firstItem="1ep-M0-Quv" firstAttribute="top" secondItem="7YM-eP-Abd" secondAttribute="top" constant="105" id="Tdu-HX-Pwc"/>
-                            <constraint firstItem="caw-mq-YLS" firstAttribute="top" secondItem="7YM-eP-Abd" secondAttribute="top" constant="176" id="VYp-jT-oH8"/>
-                            <constraint firstItem="1ep-M0-Quv" firstAttribute="leading" secondItem="7YM-eP-Abd" secondAttribute="leading" constant="45" id="ZEe-Fo-tMr"/>
-                            <constraint firstItem="J6O-Gd-wX4" firstAttribute="centerX" secondItem="7YM-eP-Abd" secondAttribute="centerX" type="default" id="dDp-tV-Rt1"/>
-                            <constraint firstItem="RVi-Um-vWG" firstAttribute="centerX" secondItem="1ep-M0-Quv" secondAttribute="centerX" type="default" id="hLH-KV-4t7"/>
-                            <constraint firstItem="caw-mq-YLS" firstAttribute="leading" secondItem="1ep-M0-Quv" secondAttribute="leading" type="default" id="ijO-go-7qd"/>
-                            <constraint firstItem="RVi-Um-vWG" firstAttribute="top" secondItem="7YM-eP-Abd" secondAttribute="top" constant="163" id="uAV-9u-ylA"/>
-                            <constraint firstItem="SaQ-GZ-ncl" firstAttribute="top" secondItem="7YM-eP-Abd" secondAttribute="top" constant="121" id="wF8-c7-4p4"/>
-                            <constraint firstItem="6BT-SP-yWG" firstAttribute="leading" secondItem="RVi-Um-vWG" secondAttribute="leading" type="default" id="xTO-Y0-Lwz"/>
+                            <constraint firstAttribute="bottom" secondItem="6BT-SP-yWG" secondAttribute="bottom" constant="66" id="H3V-a8-puZ"/>
+                            <constraint firstItem="1ep-M0-Quv" firstAttribute="top" secondItem="7YM-eP-Abd" secondAttribute="top" constant="80" id="HKD-wJ-RXW"/>
+                            <constraint firstItem="RVi-Um-vWG" firstAttribute="centerY" secondItem="hH2-Vk-M4b" secondAttribute="centerY" type="default" id="L71-Du-MMP"/>
+                            <constraint firstItem="SaQ-GZ-ncl" firstAttribute="centerY" secondItem="RVi-Um-vWG" secondAttribute="centerY" type="default" id="LB3-SC-gNX"/>
+                            <constraint firstItem="SaQ-GZ-ncl" firstAttribute="leading" secondItem="hH2-Vk-M4b" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="OVl-2E-NU7"/>
+                            <constraint firstItem="6BT-SP-yWG" firstAttribute="centerX" secondItem="J6O-Gd-wX4" secondAttribute="centerX" type="default" id="Whr-0t-gXf"/>
+                            <constraint firstItem="caw-mq-YLS" firstAttribute="top" secondItem="7YM-eP-Abd" secondAttribute="top" constant="177" id="aBP-wb-hdr"/>
+                            <constraint firstItem="6BT-SP-yWG" firstAttribute="centerX" secondItem="7YM-eP-Abd" secondAttribute="centerX" type="default" id="g5H-Xc-8JX"/>
+                            <constraint firstItem="caw-mq-YLS" firstAttribute="leading" secondItem="hH2-Vk-M4b" secondAttribute="leading" type="default" id="mwv-iF-LoN"/>
+                            <constraint firstItem="RVi-Um-vWG" firstAttribute="centerX" secondItem="1ep-M0-Quv" secondAttribute="centerX" type="default" id="uMf-H7-E81"/>
+                            <constraint firstItem="1ep-M0-Quv" firstAttribute="leading" secondItem="hH2-Vk-M4b" secondAttribute="leading" type="default" id="zO1-Hl-lhs"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="tXU-nD-pSm"/>
@@ -564,8 +576,62 @@
         <image name="minusButtonWide.png" width="111" height="75"/>
         <image name="plusButton.png" width="20" height="20"/>
         <image name="plusButtonWide.png" width="111" height="75"/>
+        <image name="rectangle.png" width="110" height="62"/>
         <image name="second" width="16" height="16"/>
     </resources>
+    <classes>
+        <class className="FirstViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="infoBread:"/>
+                <relationship kind="action" name="infoDairy:"/>
+                <relationship kind="action" name="infoFruit:"/>
+                <relationship kind="action" name="infoProtein:"/>
+                <relationship kind="action" name="infoVeggie:"/>
+                <relationship kind="action" name="minusBread:"/>
+                <relationship kind="action" name="minusDairy:"/>
+                <relationship kind="action" name="minusFruit:"/>
+                <relationship kind="action" name="minusProtein:"/>
+                <relationship kind="action" name="minusVeggie:"/>
+                <relationship kind="action" name="plusBread:"/>
+                <relationship kind="action" name="plusDairy:"/>
+                <relationship kind="action" name="plusFruit:"/>
+                <relationship kind="action" name="plusProtein:"/>
+                <relationship kind="action" name="plusVeggie:"/>
+                <relationship kind="action" name="slideBreadSlider:"/>
+                <relationship kind="action" name="slideDairySlider:"/>
+                <relationship kind="action" name="slideFruitSlider:"/>
+                <relationship kind="action" name="slideProteinSlider:"/>
+                <relationship kind="action" name="slideVeggieSlider:"/>
+                <relationship kind="outlet" name="breadLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="breadSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="dairyLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="dairySlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="fruitLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="fruitSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="proteinLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="proteinSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="veggieLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="veggieSlider" candidateClass="UISlider"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SecondViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
+        </class>
+        <class className="ThirdViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ThirdViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="minusTime:"/>
+                <relationship kind="action" name="plusTime:"/>
+                <relationship kind="action" name="reset:"/>
+                <relationship kind="action" name="updateTime:"/>
+                <relationship kind="outlet" name="timeLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

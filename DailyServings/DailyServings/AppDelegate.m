@@ -16,6 +16,24 @@ bool reset = false;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    // Assign tab bar item with titles
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    UITabBar *tabBar = tabBarController.tabBar;
+    UITabBarItem *tabBarItem1 = [tabBar.items objectAtIndex:0];
+    UITabBarItem *tabBarItem2 = [tabBar.items objectAtIndex:1];
+    UITabBarItem *tabBarItem3 = [tabBar.items objectAtIndex:2];
+    //UITabBarItem *tabBarItem4 = [tabBar.items objectAtIndex:3];
+    
+    tabBarItem1.title = @"Log";
+    tabBarItem2.title = @"Settings";
+    tabBarItem3.title = @"Info";
+    //tabBarItem4.title = @"Settings";
+    
+    [tabBarItem1 setFinishedSelectedImage:[UIImage imageNamed:@"foodIcon.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"foodIcon.png"]];
+    [tabBarItem2 setFinishedSelectedImage:[UIImage imageNamed:@"settingsIcon.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"settingsIcon.png"]];
+    [tabBarItem3 setFinishedSelectedImage:[UIImage imageNamed:@"gear.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"gear.png"]];
+   // [tabBarItem4 setFinishedSelectedImage:[UIImage imageNamed:@"settings_selected.png"] withFinishedUnselectedImage:[UIImage imageNamed:@"settings.png"]];
+
     return YES;
 }
 							

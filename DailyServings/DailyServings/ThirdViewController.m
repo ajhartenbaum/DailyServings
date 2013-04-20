@@ -48,6 +48,11 @@ int resetTime = 12;
     
     AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     appDelegate.reset = true;
+    
+    UIAlertView* mes=[[UIAlertView alloc] initWithTitle:@"Log Reset"
+                                                message:@"Log values have been reset to 0" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
+    
+    [mes show];
 }
 
 - (void)viewDidLoad

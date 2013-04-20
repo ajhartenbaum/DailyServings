@@ -16,7 +16,6 @@
     
     UIAlertView* mes=[[UIAlertView alloc] initWithTitle:@"Fruit Serving Size"
                                                 message:@"1 cup = 1 apple or 1 banana" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
-    //NSDate *now = [[NSDate alloc] init];
     [mes show];
 }
 
@@ -132,6 +131,7 @@
     [super viewDidAppear:animated];
      AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     if (appDelegate.reset) {
+        
         fruitSlider.value = 0;
         breadSlider.value = 0;
         veggieSlider.value = 0;
@@ -145,11 +145,15 @@
         dairyLabel.text = [NSString stringWithFormat:@"%1.1f out of 3 cups",dairySlider.value];
         
         
-        
         appDelegate.reset = false;
         
     }
+    
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)resetAll{
+    
 }
 
 - (void)didReceiveMemoryWarning

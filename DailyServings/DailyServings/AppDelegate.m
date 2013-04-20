@@ -13,9 +13,14 @@
 @synthesize reset;
 bool reset = false;
 
+@synthesize autoon;
+bool autoon = true;
+
 
 -(void)applicationSignificantTimeChange:(UIApplication *)application {
-    reset = true;
+    if(autoon==true){
+        reset = true;
+    }
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -62,12 +67,28 @@ bool reset = false;
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
+    // to load
+    /*reset = [defaults objectForKey:@"resetness"];
+     autoon=[defaults objectForKey:@"autoonness"];
+    NSInteger anInt = [aNumber intValue];
+     
+     */
+    
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    reset=false;
+    //reset=false;
+    
+   /* NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    // to store
+    [defaults setBool:reset forKey:@"resetness"];
+    [defaults setBool:autoon forKey:@"autoonness"];
+    [defaults synchronize];*/
+    
+   
+    
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 

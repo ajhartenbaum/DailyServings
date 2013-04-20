@@ -10,11 +10,14 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate> {
     bool reset;
+    bool autoon;
 }
 
 
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic, assign) bool reset;
+@property (nonatomic, assign) bool autoon;
+
 
 
 @end

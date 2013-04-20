@@ -25,8 +25,6 @@
     IBOutlet UISlider* dairySlider;
     IBOutlet UILabel* dairyLabel;
     
-    //NSDate* now;
-    
 }
 
 @end

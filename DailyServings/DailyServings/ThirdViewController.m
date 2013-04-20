@@ -7,6 +7,7 @@
 //
 
 #import "ThirdViewController.h"
+#import "FirstViewController.h"
 #import "AppDelegate.h"
 
 
@@ -35,6 +36,12 @@ int resetTime = 12;
     timeLabel.text = [NSString stringWithFormat:@"%d",resetTime];
 }
 
+-(IBAction)updateAuto:(id)sender {
+    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    if(appDelegate.autoon==true){appDelegate.autoon=false;}
+    else{ appDelegate.autoon=true;}
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -59,6 +66,17 @@ int resetTime = 12;
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    if(!appDelegate.autoon){
+        //On will become pressed (why is this backward?)
+        onoff.selectedSegmentIndex = 0;
+    }
+    else{
+        onoff.selectedSegmentIndex=1;
+    }
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

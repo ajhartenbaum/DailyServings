@@ -12,6 +12,7 @@
     
     int resetTime;
     IBOutlet UILabel* timeLabel;
+    IBOutlet UISegmentedControl *onoff;
 
 }
 

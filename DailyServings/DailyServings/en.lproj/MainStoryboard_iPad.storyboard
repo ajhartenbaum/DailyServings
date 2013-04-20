@@ -119,6 +119,49 @@
         <image name="first" width="16" height="16"/>
         <image name="second" width="16" height="16"/>
     </resources>
+    <classes>
+        <class className="FirstViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="infoBread:"/>
+                <relationship kind="action" name="infoDairy:"/>
+                <relationship kind="action" name="infoFruit:"/>
+                <relationship kind="action" name="infoProtein:"/>
+                <relationship kind="action" name="infoVeggie:"/>
+                <relationship kind="action" name="minusBread:"/>
+                <relationship kind="action" name="minusDairy:"/>
+                <relationship kind="action" name="minusFruit:"/>
+                <relationship kind="action" name="minusProtein:"/>
+                <relationship kind="action" name="minusVeggie:"/>
+                <relationship kind="action" name="plusBread:"/>
+                <relationship kind="action" name="plusDairy:"/>
+                <relationship kind="action" name="plusFruit:"/>
+                <relationship kind="action" name="plusProtein:"/>
+                <relationship kind="action" name="plusVeggie:"/>
+                <relationship kind="action" name="slideBreadSlider:"/>
+                <relationship kind="action" name="slideDairySlider:"/>
+                <relationship kind="action" name="slideFruitSlider:"/>
+                <relationship kind="action" name="slideProteinSlider:"/>
+                <relationship kind="action" name="slideVeggieSlider:"/>
+                <relationship kind="outlet" name="breadLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="breadSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="dairyLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="dairySlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="fruitLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="fruitSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="proteinLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="proteinSlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="veggieLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="veggieSlider" candidateClass="UISlider"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SecondViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

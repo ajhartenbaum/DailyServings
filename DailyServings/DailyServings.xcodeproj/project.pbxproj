@@ -28,8 +28,6 @@
 		A8009ABB172201CE00F5DDFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8009AB9172201CE00F5DDFC /* InfoPlist.strings */; };
 		A8009ABD172201CE00F5DDFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8009ABC172201CE00F5DDFC /* main.m */; };
 		A8009AC1172201CE00F5DDFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8009AC0172201CE00F5DDFC /* AppDelegate.m */; };
-		A8009AC3172201CE00F5DDFC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A8009AC2172201CE00F5DDFC /* Default.png */; };
-		A8009AC7172201CE00F5DDFC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8009AC6172201CE00F5DDFC /* Default-568h@2x.png */; };
 		A8009ACA172201CE00F5DDFC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8009AC8172201CE00F5DDFC /* MainStoryboard_iPhone.storyboard */; };
 		A8009ACD172201CE00F5DDFC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8009ACB172201CE00F5DDFC /* MainStoryboard_iPad.storyboard */; };
 		A8009AD0172201CE00F5DDFC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8009ACF172201CE00F5DDFC /* FirstViewController.m */; };
@@ -44,6 +42,10 @@
 		A8009AED172201CE00F5DDFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8009AEB172201CE00F5DDFC /* InfoPlist.strings */; };
 		A8009AF0172201CE00F5DDFC /* DailyServingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8009AEF172201CE00F5DDFC /* DailyServingsTests.m */; };
 		A8009AFE172206EF00F5DDFC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8009AFD172206EF00F5DDFC /* ThirdViewController.m */; };
+		A8CABDB71722B2FB00C988F9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CABDB61722B2FB00C988F9 /* Default.png */; };
+		A8CABDB91722B34C00C988F9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CABDB81722B34C00C988F9 /* Default@2x.png */; };
+		A8CABDBB1722B34F00C988F9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CABDBA1722B34F00C988F9 /* Default-568h@2x.png */; };
+		A8CABDBD1722B36600C988F9 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A8CABDBC1722B36600C988F9 /* Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,10 @@
 		A8009AEF172201CE00F5DDFC /* DailyServingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyServingsTests.m; sourceTree = "<group>"; };
 		A8009AFC172206EF00F5DDFC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		A8009AFD172206EF00F5DDFC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		A8CABDB61722B2FB00C988F9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A8CABDB81722B34C00C988F9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A8CABDBA1722B34F00C988F9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A8CABDBC1722B36600C988F9 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,10 @@
 		A8009AA4172201CE00F5DDFC = {
 			isa = PBXGroup;
 			children = (
+				A8CABDBC1722B36600C988F9 /* Logo.png */,
+				A8CABDBA1722B34F00C988F9 /* Default-568h@2x.png */,
+				A8CABDB81722B34C00C988F9 /* Default@2x.png */,
+				A8CABDB61722B2FB00C988F9 /* Default.png */,
 				A8009AB6172201CE00F5DDFC /* DailyServings */,
 				A8009AE8172201CE00F5DDFC /* DailyServingsTests */,
 				A8009AAF172201CE00F5DDFC /* Frameworks */,
@@ -311,8 +321,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8009ABB172201CE00F5DDFC /* InfoPlist.strings in Resources */,
-				A8009AC3172201CE00F5DDFC /* Default.png in Resources */,
-				A8009AC7172201CE00F5DDFC /* Default-568h@2x.png in Resources */,
 				A8009ACA172201CE00F5DDFC /* MainStoryboard_iPhone.storyboard in Resources */,
 				A8009ACD172201CE00F5DDFC /* MainStoryboard_iPad.storyboard in Resources */,
 				A8009AD2172201CE00F5DDFC /* first.png in Resources */,
@@ -334,6 +342,10 @@
 				15DDE6B31722715700AFF793 /* settingsIcon.png in Resources */,
 				15DDE6B41722715700AFF793 /* TopBar.png in Resources */,
 				15DDE6B51722715700AFF793 /* Vegetable.png in Resources */,
+				A8CABDB71722B2FB00C988F9 /* Default.png in Resources */,
+				A8CABDB91722B34C00C988F9 /* Default@2x.png in Resources */,
+				A8CABDBB1722B34F00C988F9 /* Default-568h@2x.png in Resources */,
+				A8CABDBD1722B36600C988F9 /* Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

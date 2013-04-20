@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    bool reset;
+}
+
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, assign) bool reset;
+
 
 @end

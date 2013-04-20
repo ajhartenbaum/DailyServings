@@ -7,17 +7,10 @@
 //
 
 #import "FirstViewController.h"
+#import "AppDelegate.h"
 
 
 @implementation FirstViewController
-
--(void)manualReset {
-    fruitSlider.value = 0;
-    breadSlider.value = 0;
-    veggieSlider.value = 0;
-    proteinSlider.value = 0;
-    dairySlider.value = 0;
-}
 
 -(IBAction)infoFruit:(id)sender {
     
@@ -134,9 +127,25 @@
     dairyLabel.text = [NSString stringWithFormat:@"%1.1f out of 3 cups",dairySlider.value];
 }
 
-- (void)viewDidLoad
+- (void)viewDidAppear:(BOOL) animated
 {
-    [super viewDidLoad];
+    [super viewDidAppear:animated];
+     AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    if (appDelegate.reset) {
+        fruitSlider.value = 0;
+        breadSlider.value = 0;
+        veggieSlider.value = 0;
+        proteinSlider.value = 0;
+        dairySlider.value = 0;
+        
+        fruitLabel.text = [NSString stringWithFormat:@"%1.1f out of 2.0 cups",fruitSlider.value];
+        breadLabel.text = [NSString stringWithFormat:@"%1.1f out of 6.0 oz",breadSlider.value];
+        veggieLabel.text = [NSString stringWithFormat:@"%1.1f out of 2.5 cups",veggieSlider.value];
+        proteinLabel.text = [NSString stringWithFormat:@"%1.1f out of 6.0 oz",proteinSlider.value];
+        dairyLabel.text = [NSString stringWithFormat:@"%1.1f out of 3 cups",dairySlider.value];
+        
+        appDelegate.reset = false;
+    }
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -7,6 +7,7 @@
 //
 
 #import "ThirdViewController.h"
+#import "AppDelegate.h"
 
 @interface ThirdViewController ()
 
@@ -39,11 +40,13 @@ int resetTime = 12;
     }
     return self;
 }
-/*
+
 -(IBAction)reset:(id)sender {
-    manualReset();
+    
+    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    appDelegate.reset = true;
 }
-*/
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

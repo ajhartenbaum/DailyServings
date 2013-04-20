@@ -441,7 +441,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1173" y="-302"/>
+            <point key="canvasLocation" x="636" y="1024"/>
         </scene>
         <!--Third View Controller - Item-->
         <scene sceneID="CcV-pb-hJj">
@@ -528,29 +528,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HRC-sY-SZI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="614" y="502"/>
-        </scene>
-        <!--View Controller - Item-->
-        <scene sceneID="FSx-7S-geO">
-            <objects>
-                <viewController id="YYX-8z-qJL" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="BdW-Gc-feu">
-                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="TopBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="77Q-Pf-5zE"/>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="77Q-Pf-5zE" firstAttribute="centerX" secondItem="BdW-Gc-feu" secondAttribute="centerX" type="default" id="C5I-dE-lx6"/>
-                            <constraint firstItem="77Q-Pf-5zE" firstAttribute="top" secondItem="BdW-Gc-feu" secondAttribute="top" type="default" id="PpT-Fp-oT2"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="1wx-EV-ffM"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7Ch-wU-96A" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1200" y="497"/>
+            <point key="canvasLocation" x="718" y="352"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="15">
@@ -564,9 +542,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="2" kind="relationship" relationship="viewControllers" id="26"/>
-                        <segue destination="3" kind="relationship" relationship="viewControllers" id="27"/>
-                        <segue destination="igC-CC-JaK" kind="relationship" relationship="viewControllers" id="Xdw-Ay-G9r"/>
-                        <segue destination="YYX-8z-qJL" kind="relationship" relationship="viewControllers" id="rUW-Mp-pxK"/>
+                        <segue destination="igC-CC-JaK" kind="relationship" relationship="viewControllers" id="6c8-i0-2Vr"/>
+                        <segue destination="3" kind="relationship" relationship="viewControllers" id="aBm-ew-iYp"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
@@ -589,58 +566,6 @@
         <image name="plusButtonWide.png" width="111" height="75"/>
         <image name="second" width="16" height="16"/>
     </resources>
-    <classes>
-        <class className="FirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="infoBread:"/>
-                <relationship kind="action" name="infoDairy:"/>
-                <relationship kind="action" name="infoFruit:"/>
-                <relationship kind="action" name="infoProtein:"/>
-                <relationship kind="action" name="infoVeggie:"/>
-                <relationship kind="action" name="minusBread:"/>
-                <relationship kind="action" name="minusDairy:"/>
-                <relationship kind="action" name="minusFruit:"/>
-                <relationship kind="action" name="minusProtein:"/>
-                <relationship kind="action" name="minusVeggie:"/>
-                <relationship kind="action" name="plusBread:"/>
-                <relationship kind="action" name="plusDairy:"/>
-                <relationship kind="action" name="plusFruit:"/>
-                <relationship kind="action" name="plusProtein:"/>
-                <relationship kind="action" name="plusVeggie:"/>
-                <relationship kind="action" name="slideBreadSlider:"/>
-                <relationship kind="action" name="slideDairySlider:"/>
-                <relationship kind="action" name="slideFruitSlider:"/>
-                <relationship kind="action" name="slideProteinSlider:"/>
-                <relationship kind="action" name="slideVeggieSlider:"/>
-                <relationship kind="outlet" name="breadLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="breadSlider" candidateClass="UISlider"/>
-                <relationship kind="outlet" name="dairyLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="dairySlider" candidateClass="UISlider"/>
-                <relationship kind="outlet" name="fruitLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="fruitSlider" candidateClass="UISlider"/>
-                <relationship kind="outlet" name="proteinLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="proteinSlider" candidateClass="UISlider"/>
-                <relationship kind="outlet" name="veggieLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="veggieSlider" candidateClass="UISlider"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SecondViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
-        </class>
-        <class className="ThirdViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ThirdViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="minusTime:"/>
-                <relationship kind="action" name="plusTime:"/>
-                <relationship kind="action" name="updateTime:"/>
-                <relationship kind="outlet" name="timeLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

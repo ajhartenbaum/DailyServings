@@ -18,9 +18,9 @@ bool autoon = true;
 
 
 -(void)applicationSignificantTimeChange:(UIApplication *)application {
-    if(autoon==true){
-        reset = true;
-    }
+    /*if(autoon==true){
+        //reset = true;
+    }*/
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -61,8 +61,9 @@ bool autoon = true;
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     // to store
-    [defaults setBool:reset forKey:@"resetness"];
-    [defaults setBool:autoon forKey:@"autoonness"];
+    //[defaults setBool:reset forKey:@"resetness"];
+    //[defaults setBool:autoon forKey:@"autoonness"];
+    NSLog(@"Data saved");
     
     //[defaults setObject:[NSNumber numberWithInt:fruitval] forKey:@"fruity"];
     //[defaults setFloat:2.0f forKey:@"fruity"];
@@ -78,8 +79,9 @@ bool autoon = true;
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
-    reset = [defaults objectForKey:@"resetness"];
-    autoon=[defaults objectForKey:@"autoonness"];
+    //reset = [defaults objectForKey:@"resetness"];
+    //autoon=[defaults objectForKey:@"autoonness"];
+    NSLog(@"Data saved");
     
     //fruitval=[defaults objectForKey:@"fruity"];
    /* NSNumber *aN1 = [defaults objectForKey:@"fruity"];
@@ -92,8 +94,9 @@ bool autoon = true;
     // to load
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 
-    reset = [defaults objectForKey:@"resetness"];
-     autoon=[defaults objectForKey:@"autoonness"];
+    //reset = [defaults objectForKey:@"resetness"];
+    //autoon=[defaults objectForKey:@"autoonness"];
+    NSLog(@"Data saved");
     
     //fruitval=[defaults objectForKey:@"fruity"];
     /*NSNumber *aN1 = [defaults objectForKey:@"fruity"];
@@ -106,16 +109,17 @@ bool autoon = true;
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    reset=false;
+    //reset=false;
     
    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     // to store
-    [defaults setBool:reset forKey:@"resetness"];
-    [defaults setBool:autoon forKey:@"autoonness"];
+    //[defaults setBool:reset forKey:@"resetness"];
+    //[defaults setBool:autoon forKey:@"autoonness"];
+    NSLog(@"Data saved");
     
     //[defaults setFloat:fruitval forKey:@"fruity"];
     //[defaults setObject:[NSNumber numberWithInt:fruitval] forKey:@"fruity"];
-    [defaults setFloat:2.0f forKey:@"fruity"];
+    //[defaults setFloat:2.0f forKey:@"fruity"];
     
     
     [defaults synchronize];

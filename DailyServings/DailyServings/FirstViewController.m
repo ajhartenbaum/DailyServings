@@ -25,6 +25,7 @@
 -(IBAction)plusFruit:(id)sender {
     
     fruitSlider.value++;
+    
 }
 
 -(IBAction)minusFruit:(id)sender {
@@ -156,7 +157,7 @@
     pref = [NSUserDefaults standardUserDefaults];
 
      AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    if (appDelegate.reset) {
+    /*if (appDelegate.reset) {
         
         [pref setFloat:0 forKey:@"fruit"];
         [pref setFloat:0 forKey:@"bread"];
@@ -165,7 +166,7 @@
         [pref setFloat:0 forKey:@"dairy"];
         [pref synchronize];
         appDelegate.reset = false;
-    }
+    }*/
     
     fruitSlider.value = [pref floatForKey:@"fruit"];
     breadSlider.value = [pref floatForKey:@"bread"];
@@ -181,6 +182,11 @@
         
     
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidLoad
+{
+
 }
 
 -(void)resetAll{

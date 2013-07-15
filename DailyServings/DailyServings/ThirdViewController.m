@@ -37,9 +37,10 @@ int resetTime = 12;
 }
 
 -(IBAction)updateAuto:(id)sender {
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    /*AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     if(appDelegate.autoon==true){appDelegate.autoon=false;}
-    else{ appDelegate.autoon=true;}
+    else{ appDelegate.autoon=true;}*/
+    //ONLY LEAVE THE ABOVE COMMENTED OUT UNTIL YOU MANAGE TO SAVE DATA!!!!
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
